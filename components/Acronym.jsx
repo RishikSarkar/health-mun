@@ -17,13 +17,13 @@ const Acronym = () => {
     };
 
     return (
-        <div id='countdown' className='font-marcellus w-full h-screen text-center bg-[#F7FAFA]'>
+        <div id='acronym' className='font-marcellus w-full h-screen text-center bg-[#F7FAFA] select-none'>
             <div className='max-w-[1440px] w-full h-full mx-auto flex flex-col justify-center items-center'>
                 <div className='p-8 text-2xl uppercase flex'>
                     What we stand for
                 </div>
 
-                <div className='bg-white p-8'>
+                <div className='p-8'>
                     <div className='flex justify-center items-center p-2 pb-4'>
                         {Array.from('Health').map((letter, index) => (
                             <div
@@ -35,7 +35,7 @@ const Acronym = () => {
                             </div>
                         ))}
                     </div>
-                    <div className='w-[400px] h-auto text-2xl p-2 pt-4'>
+                    <div className='h-[60px] text-2xl p-2 pt-4 bg-white'>
                         {currWord}
                     </div>
                 </div>

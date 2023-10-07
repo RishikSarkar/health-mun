@@ -2,6 +2,9 @@ import Head from 'next/head';
 import Main from '../components/Main.jsx'
 import Countdown from '../components/Countdown.jsx';
 import Acronym from '../components/Acronym.jsx';
+import FAQ from '../components/FAQ.jsx';
+import Contact from '../components/Contact.jsx';
+
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 export default function Home() {
@@ -17,6 +20,8 @@ export default function Home() {
 
       <Countdown />
       <Acronym />
+      <FAQ />
+      <Contact />
     </div>
   );
 }
