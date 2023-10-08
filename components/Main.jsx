@@ -1,9 +1,11 @@
 import React, { useEffect, useRef } from 'react'
 import Image from 'next/image';
+import Link from 'next/link';
 import { motion } from 'framer-motion'
 import placeholder1 from '../public/assets/placeholder-bg-1.png'
 import placeholder2 from '../public/assets/placeholder-bg-2.png'
 import { ParallaxBanner } from 'react-scroll-parallax';
+import { AiFillCaretDown } from 'react-icons/ai';
 
 const easing = [.6, -.05, .01, .9]
 
@@ -81,6 +83,14 @@ const Main = () => {
                                         <div className='max-w-[300px] m-auto select-none'>
                                             <div className='font-medium text-2xl uppercase'>
                                                 June 11 - July 9, 2024
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <div className='p-6 mt-32 -mb-60 text-[#F7FAFA] flex justify-center items-center cursor-pointer ease-in duration-100'>
+                                                <Link href='/#acronym'>
+                                                    <AiFillCaretDown size={50} />
+                                                </Link>
                                             </div>
                                         </div>
                                     </motion.div>

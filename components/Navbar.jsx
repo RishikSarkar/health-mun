@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import Logo from '../public/assets/placeholder-icon.png'
+import PlaceholderLogo from '../public/assets/placeholder-icon.png'
+import Logo from '../public/assets/icon-v1.png'
 
 const Navbar = () => {
     const [shadow, setShadow] = useState(false);
@@ -27,7 +28,7 @@ const Navbar = () => {
     return (
         <div id='navbar' className={shadow ? 'font-marcellus text-[#F7FAFA] fixed w-full bg-[#16796F] h-36 z-[100] select-none transition-all duration-200' :
             'font-marcellus text-[#F7FAFA] fixed w-full h-36 z-[100] select-none transition-all duration-200'}>
-            <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+            <div className='flex justify-between items-center w-full h-full px-6 2xl:px-16'>
                 <div className='ml-8 md:ml-0 flex items-center'>
                     <Image src={Logo} alt="/" width='100' height='100' />
                 </div>

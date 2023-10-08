@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react';
 
 const Acronym = () => {
     const [wordMap, setWordMap] = useState({
@@ -10,7 +10,7 @@ const Acronym = () => {
         h: 'Harmony',
     });
 
-    const [currWord, setCurrWord] = useState('')
+    const [currWord, setCurrWord] = useState('Heterogeneity')
 
     const handleClick = (letter) => {
         setCurrWord(wordMap[letter]);
