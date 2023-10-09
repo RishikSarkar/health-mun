@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import PlaceholderLogo from '../public/assets/placeholder-icon.png'
-import Logo from '../public/assets/icon-v1.png'
+import Logo from '../public/assets/logos/logo-white.png'
 
 const Navbar = () => {
     const [shadow, setShadow] = useState(false);
