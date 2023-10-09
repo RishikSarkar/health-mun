@@ -24,6 +24,12 @@ const Navbar = () => {
 
     }, []);
 
+    const [dropDownActive, setDropDownActive] = useState(false);
+
+    const handleDropDownToggle = () => {
+        setDropDownActive(!dropDownActive);
+    };
+
     return (
         <div id='navbar' className={shadow ? 'font-marcellus text-[#F7FAFA] fixed w-full bg-[#16796F] h-36 z-[100] select-none transition-all duration-200' :
             'font-marcellus text-[#F7FAFA] fixed w-full h-36 z-[100] select-none transition-all duration-200'}>
@@ -34,9 +40,26 @@ const Navbar = () => {
                 <div>
                     <ul className='font-regular hidden md:flex text-sm'>
 
-                        <Link href='/'>
-                            <li className='ml-3 uppercase px-6 p-3 ease-in hover:bg-white/30 duration-100'>About</li>
-                        </Link>
+                        <li className='uppercase px-6 p-3 relative ease-in hover:bg-white/30 duration-100' onMouseEnter={handleDropDownToggle} onMouseLeave={handleDropDownToggle}>
+                            About
+                            {dropDownActive && (
+                                <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 mt-5 p-4 bg-[#09302C]'>
+                                    <div className='flex-col items-center justify-center text-center w-50'>
+                                        <Link href='/'>
+                                            <div className='uppercase p-3 ease-in hover:bg-white/30 duration-100'>Welcome</div>
+                                        </Link>
+
+                                        <Link href='/'>
+                                            <div className='uppercase p-3 ease-in hover:bg-white/30 duration-100'>Secretariat</div>
+                                        </Link>
+
+                                        <Link href='/'>
+                                            <div className='uppercase p-3 ease-in hover:bg-white/30 duration-100'>Info</div>
+                                        </Link>
+                                    </div>
+                                </div>
+                            )}
+                        </li>
 
                         <Link href='/'>
                             <li className='ml-3 uppercase px-6 p-3 ease-in hover:bg-white/30 duration-100'>Area Guide</li>
