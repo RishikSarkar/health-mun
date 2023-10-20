@@ -8,31 +8,31 @@ import { PiGavelFill } from 'react-icons/pi';
 
 const FAQ = () => {
     return (
-        <div id='faq' className='font-marcellus w-full h-auto pb-2 text-center bg-[#CADEDF]'>
-            <div className='w-full h-[200px] mx-auto flex justify-center items-center bg-[#09302C] text-[#F7FAFA]'>
+        <div id='faq' className='font-marcellus w-full h-auto pb-2 text-center bg-[#CADEDF] dark:bg-[#1a2726]'>
+            <div className='w-full h-[200px] mx-auto flex justify-center items-center bg-[#09302C] dark:bg-[#041312] text-[#F7FAFA]'>
                 <div className='p-8 text-6xl uppercase flex select-none'>
                     FAQ
                 </div>
             </div>
-            <div className='px-16 py-8 mt-12 mx-32 grid grid-cols-3 gap-x-8 text-[#09302C] selection:text-[#F7FAFA] selection:bg-[#09302C]'>
+            <div className='px-16 py-8 mt-12 mx-32 grid grid-cols-3 gap-x-8 text-[#09302C] selection:text-[#F7FAFA] dark:selection:text-[#09302C] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
 
-                <div className="col-span-1 p-8 text-2xl bg-[#09302C] text-[#F7FAFA] border-2 border-b-0 border-opacity-50 border-[#09302C]">
+                <div className="col-span-1 p-8 text-2xl bg-[#09302C] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312] border-2 border-b-0 border-opacity-50 border-[#09302C] dark:border-[#F7FAFA]">
                     <div className='p-4 flex justify-center items-center'>
                         <MdLocationOn size={100} />
                     </div>
                 </div>
-                <div className="col-span-1 p-8 text-2xl bg-[#09302C] text-[#F7FAFA] border-2 border-b-0 border-opacity-50 border-[#09302C]">
+                <div className="col-span-1 p-8 text-2xl bg-[#09302C] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312] border-2 border-b-0 border-opacity-50 border-[#09302C] dark:border-[#F7FAFA]">
                     <div className='p-4 flex justify-center items-center'>
                         <FaRegCalendarAlt size={100} />
                     </div>
                 </div>
-                <div className="col-span-1 p-8 text-2xl bg-[#09302C] text-[#F7FAFA] border-2 border-b-0 border-opacity-50 border-[#09302C]">
+                <div className="col-span-1 p-8 text-2xl bg-[#09302C] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312] border-2 border-b-0 border-opacity-50 border-[#09302C] dark:border-[#F7FAFA]">
                     <div className='p-4 flex justify-center items-center'>
                         <IoEnter size={100} />
                     </div>
                 </div>
 
-                <div className="col-span-1 p-8 bg-[#F7FAFA]/60 border-2 border-t-0 border-opacity-50 border-[#09302C]">
+                <div className="col-span-1 p-8 bg-[#F7FAFA]/60 dark:bg-[#041312] dark:text-[#F7FAFA] border-2 border-t-0 border-opacity-50 border-[#09302C] dark:border-[#F7FAFA]">
                     <h2 className='p-4'>
                         Where?
                     </h2>
@@ -40,7 +40,7 @@ const FAQ = () => {
                         The conference will take place at ...
                     </h5>
                 </div>
-                <div className="col-span-1 p-8 bg-[#F7FAFA]/60 border-2 border-t-0 border-opacity-50 border-[#09302C]">
+                <div className="col-span-1 p-8 bg-[#F7FAFA]/60 dark:bg-[#041312] dark:text-[#F7FAFA] border-2 border-t-0 border-opacity-50 border-[#09302C] dark:border-[#F7FAFA]">
                     <h2 className='p-4'>
                         When?
                     </h2>
@@ -48,7 +48,7 @@ const FAQ = () => {
                         The conference is from ...
                     </h5>
                 </div>
-                <div className="col-span-1 p-8 bg-[#F7FAFA]/60 border-2 border-t-0 border-opacity-50 border-[#09302C]">
+                <div className="col-span-1 p-8 bg-[#F7FAFA]/60 dark:bg-[#041312] dark:text-[#F7FAFA] border-2 border-t-0 border-opacity-50 border-[#09302C] dark:border-[#F7FAFA]">
                     <h2 className='p-4'>
                         Registration?
                     </h2>
@@ -59,25 +59,25 @@ const FAQ = () => {
 
             </div>
 
-            <div className='px-16 py-8 mx-32 grid grid-cols-3 gap-x-8 text-[#09302C] selection:text-[#F7FAFA] selection:bg-[#09302C]'>
+            <div className='px-16 py-8 mx-32 grid grid-cols-3 gap-x-8 text-[#09302C] selection:text-[#F7FAFA] dark:selection:text-[#09302C] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
 
-                <div className="col-span-1 p-8 text-2xl bg-[#09302C] text-[#F7FAFA] border-2 border-b-0 border-opacity-50 border-[#09302C]">
+                <div className="col-span-1 p-8 text-2xl bg-[#09302C] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312] border-2 border-b-0 border-opacity-50 border-[#09302C] dark:border-[#F7FAFA]">
                     <div className='p-4 flex justify-center items-center'>
                         <BsFillPersonCheckFill size={100} />
                     </div>
                 </div>
-                <div className="col-span-1 p-8 text-2xl bg-[#09302C] text-[#F7FAFA] border-2 border-b-0 border-opacity-50 border-[#09302C]">
+                <div className="col-span-1 p-8 text-2xl bg-[#09302C] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312] border-2 border-b-0 border-opacity-50 border-[#09302C] dark:border-[#F7FAFA]">
                     <div className='p-4 flex justify-center items-center'>
                         <FaMoneyCheckAlt size={100} />
                     </div>
                 </div>
-                <div className="col-span-1 p-8 text-2xl bg-[#09302C] text-[#F7FAFA] border-2 border-b-0 border-opacity-50 border-[#09302C]">
+                <div className="col-span-1 p-8 text-2xl bg-[#09302C] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312] border-2 border-b-0 border-opacity-50 border-[#09302C] dark:border-[#F7FAFA]">
                     <div className='p-4 flex justify-center items-center'>
                         <PiGavelFill size={100} />
                     </div>
                 </div>
 
-                <div className="col-span-1 p-8 bg-[#F7FAFA]/60 border-2 border-t-0 border-opacity-50 border-[#09302C]">
+                <div className="col-span-1 p-8 bg-[#F7FAFA]/60 dark:bg-[#041312] dark:text-[#F7FAFA] border-2 border-t-0 border-opacity-50 border-[#09302C] dark:border-[#F7FAFA]">
                     <h2 className='p-4'>
                         Eligibility
                     </h2>
@@ -85,7 +85,7 @@ const FAQ = () => {
                         You are eligible if ...
                     </h5>
                 </div>
-                <div className="col-span-1 p-8 bg-[#F7FAFA]/60 border-2 border-t-0 border-opacity-50 border-[#09302C]">
+                <div className="col-span-1 p-8 bg-[#F7FAFA]/60 dark:bg-[#041312] dark:text-[#F7FAFA] border-2 border-t-0 border-opacity-50 border-[#09302C] dark:border-[#F7FAFA]">
                     <h2 className='p-4'>
                         Fees
                     </h2>
@@ -93,7 +93,7 @@ const FAQ = () => {
                         The conference costs ...
                     </h5>
                 </div>
-                <div className="col-span-1 p-8 bg-[#F7FAFA]/60 border-2 border-t-0 border-opacity-50 border-[#09302C]">
+                <div className="col-span-1 p-8 bg-[#F7FAFA]/60 dark:bg-[#041312] dark:text-[#F7FAFA] border-2 border-t-0 border-opacity-50 border-[#09302C] dark:border-[#F7FAFA]">
                     <h2 className='p-4'>
                         Awards
                     </h2>
@@ -105,7 +105,7 @@ const FAQ = () => {
             </div>
 
             <div className='text-xl p-4 mt-4 mb-12 uppercase flex select-none justify-center items-center'>
-                <div className='p-6 bg-[#09302C] text-[#F7FAFA] hover:bg-[#09302C]/80 cursor-pointer ease-in duration-100'>
+                <div className='p-6 bg-[#09302C] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312] hover:bg-[#09302C]/80 dark:hover:bg-[#cadede]/60 cursor-pointer ease-in duration-100'>
                     <Link href='/#contact'>
                         Any other questions?
                     </Link>

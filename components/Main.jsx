@@ -44,8 +44,8 @@ const Main = () => {
                             {
                                 speed: -40,
                                 children: (
-                                    <div className='w-[50%] h-[50%] absolute left-0 top-[25%] z-0 bg-[#181C19] border-r-2 border-black'>
-                                        <div className='opacity-30'>
+                                    <div className='w-[50%] h-[50%] absolute left-0 top-[25%] z-0 bg-[#181C19]'>
+                                        <div className='opacity-30 dark:opacity-10'>
                                             <Image
                                                 src={placeholder1}
                                                 fill={true}
@@ -58,8 +58,8 @@ const Main = () => {
                             {
                                 speed: -40,
                                 children: (
-                                    <div className='w-[50%] h-[50%] absolute right-0 top-[25%] z-0 bg-[#12201E] border-l-2 border-black'>
-                                        <div className='opacity-30'>
+                                    <div className='w-[50%] h-[50%] absolute right-0 top-[25%] z-0 bg-[#12201E]'>
+                                        <div className='opacity-30 dark:opacity-10'>
                                             <Image
                                                 src={placeholder2}
                                                 fill={true}
@@ -88,7 +88,7 @@ const Main = () => {
 
                                         <div>
                                             <div className='p-6 mt-32 -mb-60 text-[#F7FAFA] flex justify-center items-center cursor-pointer ease-in duration-100'>
-                                                <Link href='/#acronym'>
+                                                <Link href='/#timer'>
                                                     <AiFillCaretDown size={50} />
                                                 </Link>
                                             </div>

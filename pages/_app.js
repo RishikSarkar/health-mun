@@ -1,11 +1,14 @@
 import '../styles/global.css'
 import Navbar from '../components/Navbar'
+import { ThemeProvider } from 'next-themes';
 
 function MyApp({ Component, pageProps }) {
     return (
         <>
-            <Navbar />
-            <Component {...pageProps} />
+            <ThemeProvider attribute='class'>
+                <Navbar />
+                <Component {...pageProps} />
+            </ThemeProvider>
         </>
     )
 }

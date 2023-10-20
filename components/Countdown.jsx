@@ -56,14 +56,14 @@ const Countdown = () => {
     }, []);
 
     return (
-        <div id='countdown' className='font-marcellus w-full h-full text-center bg-[#CADEDF] select-none'>
+        <div id='countdown' className='font-marcellus w-full h-full text-center bg-[#CADEDF] dark:bg-[#041312] select-none'>
             <div className='max-w-[1440px] w-full h-[300px] mx-auto flex flex-col justify-center items-center'>
                 <div className='p-3 text-xl uppercase flex'>
                     Conference Starts in
                 </div>
 
                 <div className='mt-4 p-3 text-3xl flex flex-col'>
-                    <div className="grid grid-cols-4 gap-4">
+                    <div id='timer' className="grid grid-cols-4 gap-4">
 
                         <div className="col-span-1 w-12">
                             {`${timeLeft.days}`}
