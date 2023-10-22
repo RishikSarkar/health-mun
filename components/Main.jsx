@@ -2,8 +2,8 @@ import React, { useEffect, useRef } from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion'
-import placeholder1 from '../public/assets/placeholder-bg-1.png'
-import placeholder2 from '../public/assets/placeholder-bg-2.png'
+import placeholder1 from '../public/assets/placeholder-gif-1.gif'
+import placeholder2 from '../public/assets/placeholder-gif-2.gif'
 import { ParallaxBanner } from 'react-scroll-parallax';
 import { AiFillCaretDown } from 'react-icons/ai';
 
@@ -76,8 +76,8 @@ const Main = () => {
                             <motion.div variants={stagger}>
                                 <div className='relative z-10'>
                                     <motion.div variants={fadeInUp}>
-                                        <h1 className='font-medium text-8xl font-marcellus py-4 select-none'>
-                                            HealthMUN
+                                        <h1 className='font-medium text-9xl font-marcellus py-4 select-none'>
+                                            H<span className='text-8xl'>ealth</span>MUN
                                         </h1>
 
                                         <div className='max-w-[300px] m-auto select-none'>
