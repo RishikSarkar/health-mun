@@ -2,12 +2,13 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useTheme } from 'next-themes'
-import LogoW from '../public/assets/logos/logo-wb.png'
-import LogoB from '../public/assets/logos/logo-bw.png'
+import LogoL from '../public/assets/logos/logo-wb.png'
+import LogoD from '../public/assets/logos/logo-gw.png'
 import Switch from "react-switch";
+import { BsMoonFill, BsSunFill } from 'react-icons/bs';
 
 const Navbar = () => {
-    const [shadow, setShadow] = useState(false);
+    const [visible, setVisible] = useState(false);
     const { theme, setTheme } = useTheme();
 
     const toggleTheme = () => {
@@ -15,19 +16,19 @@ const Navbar = () => {
     };
 
     useEffect(() => {
-        const handleShadow = () => {
+        const handleVisible = () => {
             if (window.scrollY >= 90) {
-                setShadow(true);
+                setVisible(true);
             }
             else {
-                setShadow(false);
+                setVisible(false);
             }
         };
 
-        window.addEventListener('scroll', handleShadow);
+        window.addEventListener('scroll', handleVisible);
 
         return () => {
-            window.removeEventListener('scroll', handleShadow);
+            window.removeEventListener('scroll', handleVisible);
         };
 
     }, []);
@@ -39,12 +40,14 @@ const Navbar = () => {
     };
 
     return (
-        <div id='navbar' className={shadow ? 'font-marcellus text-[#F7FAFA] fixed w-full bg-[#16796F] dark:bg-[#09302C] h-36 z-[100] select-none transition-all duration-200' :
-            'font-marcellus text-[#F7FAFA] fixed w-full h-36 z-[100] select-none transition-all duration-200'}>
-            <div className='flex justify-between items-center w-full h-full px-6 2xl:px-16'>
-                <div className='ml-8 md:ml-0 flex items-center'>
-                    <Image src={theme === 'dark' ? LogoB : LogoW} alt="/" width='95' height='95' />
-                </div>
+        <div id='navbar' className={visible ? 'font-montserrat text-[#F7FAFA] fixed w-full bg-[#16796F] dark:bg-[#09302C] h-28 z-[100] select-none transition-all duration-200' :
+            'font-montserrat text-[#F7FAFA] fixed w-full h-28 z-[100] select-none transition-all duration-200'}>
+            <div className='flex justify-between items-center w-full h-full px-8'>
+                <Link href='/'>
+                    <div className='flex items-center'>
+                        <Image src={theme === 'dark' ? LogoD : LogoL} alt="/" width='70' height='70' />
+                    </div>
+                </Link>
                 <div>
                     <ul className='font-regular hidden md:flex text-sm items-center'>
 
@@ -88,10 +91,24 @@ const Navbar = () => {
                         <Switch className='ml-3 px-6'
                             onChange={toggleTheme}
                             checked={theme === 'dark'}
+                            height={30}
+                            width={60}
+                            handleDiameter={28}
+                            borderRadius={4}
+                            uncheckedIcon={
+                                <div className="flex h-full items-center justify-center">
+                                    <BsSunFill className='text-white' size={12} />
+                                </div>
+                            }
+                            checkedIcon={
+                                <div className="flex h-full items-center justify-center">
+                                    <BsMoonFill className='text-white' size={12} />
+                                </div>
+                            }
+                            uncheckedHandleIcon={false}
+                            checkedHandleIcon={false}
                             onColor="#041312"
                             offColor="#CADEDF"
-                            uncheckedIcon={false}
-                            checkedIcon={false}
                         />
 
                     </ul>

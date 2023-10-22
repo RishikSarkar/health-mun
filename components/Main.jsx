@@ -87,9 +87,9 @@ const Main = () => {
                                         </div>
 
                                         <div>
-                                            <div className='p-6 mt-32 -mb-60 text-[#F7FAFA] flex justify-center items-center cursor-pointer ease-in duration-100'>
+                                            <div className='p-6 mt-32 -mb-60 text-[#F7FAFA] flex justify-center items-center ease-in duration-100'>
                                                 <Link href='/#timer'>
-                                                    <AiFillCaretDown size={50} />
+                                                    <AiFillCaretDown size={50} className='cursor-pointer' />
                                                 </Link>
                                             </div>
                                         </div>

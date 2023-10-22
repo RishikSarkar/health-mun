@@ -16,7 +16,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif'],
-        'marcellus': ['Marcellus', 'serif']
+        'marcellus': ['Marcellus', 'serif'],
+        'montserrat': ['Montserrat', 'sans-serif']
       }
     },
   },

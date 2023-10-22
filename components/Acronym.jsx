@@ -60,17 +60,17 @@ const Acronym = () => {
                         {Array.from('Health').map((letter, index) => (
                             <div
                                 key={index}
-                                className={`${letter === currLetter ? 'bg-[#CADEDF] dark:bg-[#253130]' : 'bg-white dark:bg-[#041312]'} text-3xl uppercase text-black dark:text-white font-bold py-2 px-4 cursor-pointer border-2 border-opacity-50 border-[#09302C] dark:border-[#F7FAFA]`}
+                                className={`${letter === currLetter ? 'bg-[#CADEDF] dark:bg-[#253130]' : 'bg-white dark:bg-[#041312]'} text-3xl text-center w-[60px] uppercase text-black dark:text-white font-bold py-2 px-4 cursor-pointer border-2 border-[#09302C] dark:border-[#F7FAFA]`}
                                 onClick={() => handleClick(letter)}
                             >
                                 {letter}
                             </div>
                         ))}
                     </div>
-                    <div className='h-[60px] w-[600px] flex mt-8 justify-center items-center text-2xl bg-[#CADEDF] dark:bg-[#253130] text-black dark:text-white border-2 border-opacity-50 border-[#09302C] dark:border-[#F7FAFA]'>
+                    <div className='h-[60px] w-[600px] flex mt-8 justify-center items-center text-2xl bg-[#CADEDF] dark:bg-[#253130] text-black dark:text-white border-2 border-[#09302C] dark:border-[#F7FAFA]'>
                         {currWord}
                     </div>
-                    <div className='h-[250px] w-[600px] p-6 mt-4 flex justify-center items-center text-md bg-white dark:bg-[#041312] text-black dark:text-white border-2 border-opacity-50 border-[#09302C] dark:border-[#F7FAFA]'>
+                    <div className='font-montserrat h-[300px] w-[600px] p-6 mt-4 flex justify-center items-center text-md bg-white dark:bg-[#041312] text-black dark:text-white border-2 border-[#09302C] dark:border-[#F7FAFA]'>
                         {currDetails}
                     </div>
                 </div>
