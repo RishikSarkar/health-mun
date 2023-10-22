@@ -2,8 +2,8 @@ import React, { useEffect, useRef } from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion'
-import placeholder1 from '../public/assets/placeholder-gif-1.gif'
-import placeholder2 from '../public/assets/placeholder-gif-2.gif'
+import placeholder1 from '../public/assets/placeholder-bg-1.png'
+import placeholder2 from '../public/assets/placeholder-bg-2.png'
 import { ParallaxBanner } from 'react-scroll-parallax';
 import { AiFillCaretDown } from 'react-icons/ai';
 
