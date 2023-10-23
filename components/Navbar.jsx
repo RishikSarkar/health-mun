@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useTheme } from 'next-themes'
 import LogoL from '../public/assets/logos/logo-wb.png'
-import LogoD from '../public/assets/logos/logo-gw.png'
+import LogoD from '../public/assets/logos/logo-wb.png'
 import Switch from "react-switch";
 import { BsMoonFill, BsSunFill } from 'react-icons/bs';
 
@@ -40,7 +40,7 @@ const Navbar = () => {
     };
 
     return (
-        <div id='navbar' className={visible ? 'font-montserrat text-[#F7FAFA] fixed w-full bg-[#16796F] dark:bg-[#09302C] h-28 z-[100] select-none transition-all duration-200' :
+        <div id='navbar' className={visible ? 'font-montserrat text-[#F7FAFA] fixed w-full bg-[#16796F] dark:bg-[#041312] h-28 z-[100] select-none transition-all duration-200' :
             'font-montserrat text-[#F7FAFA] fixed w-full h-28 z-[100] select-none transition-all duration-200'}>
             <div className='flex justify-between items-center w-full h-full px-8'>
                 <Link href='/'>
@@ -51,21 +51,21 @@ const Navbar = () => {
                 <div>
                     <ul className='font-regular hidden md:flex text-sm items-center'>
 
-                        <li className='uppercase px-6 p-3 relative ease-in hover:bg-white/30 dark:hover:bg-black/30 duration-100' onMouseEnter={handleDropDownToggle} onMouseLeave={handleDropDownToggle}>
+                        <li className='uppercase px-6 p-3 relative ease-in hover:bg-white/30 dark:hover:bg-white/20 duration-100' onMouseEnter={handleDropDownToggle} onMouseLeave={handleDropDownToggle}>
                             About
                             {dropDownActive && (
                                 <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 mt-5 p-4 bg-[#09302C] dark:bg-[#041312]'>
                                     <div className='flex-col items-center justify-center text-center w-50'>
                                         <Link href='/'>
-                                            <div className='uppercase p-3 ease-in hover:bg-white/30 dark:hover:bg-white/10 duration-100'>Welcome</div>
+                                            <div className='uppercase p-3 ease-in hover:bg-white/30 dark:hover:text-[#041312] dark:hover:bg-[#cadede] duration-100'>Welcome</div>
                                         </Link>
 
                                         <Link href='/'>
-                                            <div className='uppercase p-3 ease-in hover:bg-white/30 dark:hover:bg-white/10 duration-100'>Secretariat</div>
+                                            <div className='uppercase p-3 ease-in hover:bg-white/30 dark:hover:text-[#041312] dark:hover:bg-[#cadede] duration-100'>Secretariat</div>
                                         </Link>
 
                                         <Link href='/'>
-                                            <div className='uppercase p-3 ease-in hover:bg-white/30 dark:hover:bg-white/10 duration-100'>Info</div>
+                                            <div className='uppercase p-3 ease-in hover:bg-white/30 dark:hover:text-[#041312] dark:hover:bg-[#cadede] duration-100'>Info</div>
                                         </Link>
                                     </div>
                                 </div>
@@ -73,19 +73,19 @@ const Navbar = () => {
                         </li>
 
                         <Link href='/'>
-                            <li className='ml-3 uppercase px-6 p-3 ease-in hover:bg-white/30 dark:hover:bg-black/30 duration-100'>Area Guide</li>
+                            <li className='ml-3 uppercase px-6 p-3 ease-in hover:bg-white/30 dark:hover:bg-white/20 duration-100'>Area Guide</li>
                         </Link>
 
                         <Link href='/'>
-                            <li className='ml-3 uppercase px-6 p-3 ease-in hover:bg-white/30 dark:hover:bg-black/30 duration-100'>Committees</li>
+                            <li className='ml-3 uppercase px-6 p-3 ease-in hover:bg-white/30 dark:hover:bg-white/20 duration-100'>Committees</li>
                         </Link>
 
                         <Link href='/'>
-                            <li className='ml-3 uppercase px-6 p-3 ease-in hover:bg-white/30 dark:hover:bg-black/30 duration-100'>Schedule</li>
+                            <li className='ml-3 uppercase px-6 p-3 ease-in hover:bg-white/30 dark:hover:bg-white/20 duration-100'>Schedule</li>
                         </Link>
 
                         <Link href='/'>
-                            <li className='ml-3 uppercase px-6 p-3 ease-in hover:bg-white/30 dark:hover:bg-black/30 duration-100'>Register</li>
+                            <li className='ml-3 uppercase px-6 p-3 ease-in hover:bg-white/30 dark:hover:bg-white/20 duration-100'>Register</li>
                         </Link>
 
                         <Switch className='ml-3 px-6'
@@ -107,7 +107,7 @@ const Navbar = () => {
                             }
                             uncheckedHandleIcon={false}
                             checkedHandleIcon={false}
-                            onColor="#041312"
+                            onColor="#253130"
                             offColor="#CADEDF"
                         />
 

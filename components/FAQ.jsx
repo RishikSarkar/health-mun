@@ -14,7 +14,7 @@ const FAQ = () => {
                     FAQ
                 </div>
             </div>
-            <div className='px-16 py-8 mt-12 mx-32 grid grid-cols-3 gap-x-8 text-[#09302C] selection:text-[#F7FAFA] dark:selection:text-[#09302C] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
+            <div className='px-16 py-8 mt-12 mx-32 grid grid-cols-3 gap-x-8 text-[#09302C] selection:text-[#F7FAFA] dark:selection:text-[#041312] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
 
                 <div className="col-span-1 p-8 text-2xl bg-[#16796F] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312] border-2 border-b-0 border-[#09302C] dark:border-[#F7FAFA]">
                     <div className='p-4 flex justify-center items-center'>
@@ -59,7 +59,7 @@ const FAQ = () => {
 
             </div>
 
-            <div className='px-16 py-8 mx-32 grid grid-cols-3 gap-x-8 text-[#09302C] selection:text-[#F7FAFA] dark:selection:text-[#09302C] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
+            <div className='px-16 py-8 mx-32 grid grid-cols-3 gap-x-8 text-[#09302C] selection:text-[#F7FAFA] dark:selection:text-[#041312] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
 
                 <div className="col-span-1 p-8 text-2xl bg-[#16796F] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312] border-2 border-b-0 border-[#09302C] dark:border-[#F7FAFA]">
                     <div className='p-4 flex justify-center items-center'>
@@ -104,10 +104,10 @@ const FAQ = () => {
 
             </div>
 
-            <div className='text-xl p-4 mt-4 mb-12 uppercase flex select-none justify-center items-center'>
+            <div className='text-xl font-montserrat p-4 mt-4 mb-12 uppercase flex select-none justify-center items-center'>
                 <div className='p-6 bg-[#16796F] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312] hover:bg-[#16796F]/70 dark:hover:bg-[#cadede]/60 cursor-pointer ease-in duration-100'>
                     <Link href='/#contact'>
-                        Any other questions?
+                        Questions?
                     </Link>
                 </div>
             </div>
