@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useTheme } from 'next-themes'
-import LogoL from '../public/assets/logos/logo-wb.png'
-import LogoD from '../public/assets/logos/logo-wb.png'
+import LogoL from '../public/assets/logos/logo-ww.png'
+import LogoD from '../public/assets/logos/logo-ww.png'
 import Switch from "react-switch";
 import { BsMoonFill, BsSunFill } from 'react-icons/bs';
 
