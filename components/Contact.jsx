@@ -6,7 +6,7 @@ const Contact = () => {
 
         const userAnswer = window.prompt("What does MUN stand for?");
 
-        const regex = /^(model|madel|m0del)?\s*(united|uneted|unitted)?\s*(nations|natinos|natons)?$/i;
+        const regex = /^m[oaeiu]*d[eaiou]*l\s*u[nioaue]*t[eaiou]*d\s*n[aioeu]*t[eaiou]*[eaiou]*[eaiou]*n[eaiou]*s$/i;
 
         if (userAnswer && regex.test(userAnswer.trim())) {
             event.target.submit();
