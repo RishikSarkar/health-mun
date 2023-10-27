@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react'
+import { useManual } from '../contexts/ManualContext';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion'
@@ -35,6 +36,12 @@ const stagger = {
 };
 
 const Main = () => {
+    const { setManual } = useManual();
+
+    useEffect(() => {
+        setManual(false);
+    }, []);
+
     return (
         <motion.div initial='initial' animate='animate'>
             <div id='home' className='font-marcellus w-full h-screen text-center text-[#F7FAFA]'>

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { useManual } from '../contexts/ManualContext'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useTheme } from 'next-themes'
@@ -10,18 +11,30 @@ import { BsMoonFill, BsSunFill } from 'react-icons/bs';
 const Navbar = () => {
     const [visible, setVisible] = useState(false);
     const { theme, setTheme } = useTheme();
+    const { manual } = useManual();
 
     const toggleTheme = () => {
         setTheme(theme === 'light' ? 'dark' : 'light');
     };
 
     useEffect(() => {
+        if (manual) {
+            setVisible(true);
+        } else {
+            setVisible(window.scrollY >= 90);
+        }
+
         const handleVisible = () => {
-            if (window.scrollY >= 90) {
+            if (manual) {
                 setVisible(true);
             }
             else {
-                setVisible(false);
+                if (window.scrollY >= 90) {
+                    setVisible(true);
+                }
+                else {
+                    setVisible(false);
+                }
             }
         };
 
@@ -30,8 +43,7 @@ const Navbar = () => {
         return () => {
             window.removeEventListener('scroll', handleVisible);
         };
-
-    }, []);
+    }, [manual]);
 
     const [dropDownActive, setDropDownActive] = useState(false);
 
@@ -56,7 +68,7 @@ const Navbar = () => {
                             {dropDownActive && (
                                 <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 mt-5 p-4 bg-[#09302C] dark:bg-[#041312]'>
                                     <div className='flex-col items-center justify-center text-center w-50'>
-                                        <Link href='/'>
+                                        <Link href='/about/Welcome'>
                                             <div className='uppercase p-3 ease-in hover:bg-white/30 dark:hover:text-[#041312] dark:hover:bg-[#cadede] duration-100'>Welcome</div>
                                         </Link>
 
@@ -108,7 +120,7 @@ const Navbar = () => {
                             uncheckedHandleIcon={false}
                             checkedHandleIcon={false}
                             onColor="#253130"
-                            offColor="#CADEDF"
+                            offColor="#1ea496"
                         />
 
                     </ul>
