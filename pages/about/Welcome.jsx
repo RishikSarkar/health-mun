@@ -10,7 +10,7 @@ const Welcome = () => {
 
     return (
         <div id='welcome' className='pt-28 w-full h-full flex items-center justify-center bg-[#F7FAFA] dark:bg-[#253130] selection:text-[#F7FAFA] dark:selection:text-[#09302C] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
-            <div className='max-w-[1440px] w-full h-full py-32 px-48 font-montserrat'>
+            <div className='w-full h-full py-32 px-48 font-montserrat'>
                 <div className='text-xl font-bold font-marcellus'>
                     A Letter from the Secretary-General:
                 </div>

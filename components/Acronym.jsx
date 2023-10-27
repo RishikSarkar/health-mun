@@ -34,10 +34,7 @@ const Acronym = () => {
 
     return (
         <div id='acronym' className='font-marcellus w-full h-screen text-center bg-[#F7FAFA] dark:bg-[#253130] selection:text-[#F7FAFA] dark:selection:text-[#09302C] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
-            <div className='max-w-[1440px] w-full h-full mx-auto flex flex-col justify-center items-center relative'>
-                {/* <div className='p-8 text-2xl uppercase flex'>
-                    What we stand for
-                </div> */}
+            <div className='w-full h-full mx-auto flex flex-col justify-center items-center relative'>
                 <div className='absolute z-0 center-0 w-[850px] h-[850px] z-0'>
                     <div className='opacity-10 block dark:hidden'>
                         <Image

@@ -56,8 +56,8 @@ const Countdown = () => {
     }, []);
 
     return (
-        <div id='countdown' className='font-marcellus w-full h-full text-center bg-[#CADEDF] dark:bg-[#041312] select-none'>
-            <div className='max-w-[1440px] w-full h-[300px] mx-auto flex flex-col justify-center items-center'>
+        <div id='countdown' className='font-marcellus w-full h-full text-center text-[#F7FAFA] bg-[#16796F] dark:bg-[#041312] select-none'>
+            <div className='w-full h-[300px] mx-auto flex flex-col justify-center items-center'>
                 <div className='p-3 text-xl uppercase flex'>
                     Conference Starts in
                 </div>

@@ -72,7 +72,7 @@ const Navbar = () => {
                                             <div className='uppercase p-3 ease-in hover:bg-white/30 dark:hover:text-[#041312] dark:hover:bg-[#cadede] duration-100'>Welcome</div>
                                         </Link>
 
-                                        <Link href='/'>
+                                        <Link href='/about/Secretariat'>
                                             <div className='uppercase p-3 ease-in hover:bg-white/30 dark:hover:text-[#041312] dark:hover:bg-[#cadede] duration-100'>Secretariat</div>
                                         </Link>
 

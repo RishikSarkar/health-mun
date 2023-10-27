@@ -21,7 +21,7 @@ export default function Home() {
       <Countdown />
       <Acronym />
       <FAQ />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }
