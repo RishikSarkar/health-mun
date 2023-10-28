@@ -18,21 +18,25 @@ const Welcome = () => {
                     Dear Delegates, Faculty Advisors, & Staff,
                 </div>
                 <div className='text-md pt-6'>
-                    Model United Nations has traditionally been a platform that underscores the essence of diplomacy,
-                    challenges political boundaries, and acts as a bridge to mend global differences. However, it has
-                    come to our attention that much of the educational culture surrounding Model UN has disproportionately
-                    emphasized specific liberal political topics. We must remember that STEM is not just a field of academic
-                    pursuit but stands tall as a cornerstone for diplomacy and international relations.
+                    Model United Nations has traditionally been an extracurricular platform that highlights the essence of
+                    diplomacy, challenges political boundaries, and mends global differences. However, after actively engaging
+                    in Model UN for over a decade, it has come to my attention that much of the educational culture surrounding
+                    it has disproportionately underscored liberal and political topics. There has been a clear imbalance in
+                    academic focus. Crucial issues pertinent to our ever-changing world, such as health, technology, and the
+                    sciences, have unfortunately been ignored or rarely discussed. We must remember that STEM is not just a
+                    field of academic pursuit but also a cornerstone for diplomacy and international affairs.
                 </div>
                 <div className='text-md pt-6'>
-                    From the inception of HealthMUN, our foremost intention has been to illuminate the intricate relationship
-                    between global health and politics. We believe that irrespective of one's academic trajectory, individual
-                    interests, or prior experiences, each of you holds the potential to shape the world.
+                    From the inception of HealthMUN, my primary goal has been to emphasize the intricate relationship between
+                    global health and politics within the Model UN community. I firmly believe that irrespective of one’s
+                    academic trajectory, individual interests, or prior experiences, Model UN fosters invaluable skills for
+                    all students as they prepare to navigate the real world. At HealthMUN, each and every one of you holds
+                    the potential to shape the world.
                 </div>
                 <div className='text-md pt-6'>
                     With great anticipation and pride, the Secretariat and I usher you into a transformative era for the Model 
-                    UN community worldwide. Join us in making this not just an event but a movement that redefines our 
-                    collective approach to global challenges.
+                    UN community worldwide. Join us in making this not just an event but a movement that redefines our collective 
+                    approach to global challenges.
                 </div>
                 <div className='text-md pt-6'>
                     Welcome to HealthMUN!

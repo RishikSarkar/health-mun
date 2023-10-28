@@ -1,59 +1,51 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 
 const Countdown = () => {
-
     const targetDate = new Date('2024-06-11T12:00:00Z');
-    const currDate = new Date();
-
-    const timeDiff = targetDate - currDate;
-
-    const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
     const [timeLeft, setTimeLeft] = useState({
-        days,
-        hours,
-        minutes,
-        seconds,
+        days: null,
+        hours: null,
+        minutes: null,
+        seconds: null,
     });
 
     useEffect(() => {
-        const interval = setInterval(() => {
+        const updateCountdown = () => {
             const now = new Date();
-            const offset = now.getTimezoneOffset() * 60 * 1000;
+            const timeDiff = targetDate - now;
 
-            const newTimeDiff = targetDate - now + offset;
-
-            if (newTimeDiff <= 0) {
-                clearInterval(interval);
+            if (timeDiff <= 0) {
                 setTimeLeft({
                     days: 0,
                     hours: 0,
                     minutes: 0,
                     seconds: 0,
                 });
-            }
-            else {
-                const newDays = Math.floor(newTimeDiff / (1000 * 60 * 60 * 24));
-                const newHours = Math.floor((newTimeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                const newMinutes = Math.floor((newTimeDiff % (1000 * 60 * 60)) / (1000 * 60));
-                const newSeconds = Math.floor((newTimeDiff % (1000 * 60)) / 1000);
+            } else {
+                const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
                 setTimeLeft({
-                    days: newDays,
-                    hours: newHours,
-                    minutes: newMinutes,
-                    seconds: newSeconds,
+                    days,
+                    hours,
+                    minutes,
+                    seconds,
                 });
             }
-        }, 1000);
-
-        return () => {
-            clearInterval(interval);
         };
+
+        updateCountdown();  // Call immediately to set the initial value.
+        const interval = setInterval(updateCountdown, 1000);
+        return () => clearInterval(interval);
     }, []);
+
+    // If the time hasn't been initialized yet, you can choose to render nothing.
+    if (timeLeft.days === null) {
+        return null;
+    }
 
     return (
         <div id='countdown' className='font-marcellus w-full h-full text-center text-[#F7FAFA] bg-[#16796F] dark:bg-[#041312] select-none'>
@@ -64,7 +56,6 @@ const Countdown = () => {
 
                 <div className='mt-4 p-3 text-3xl flex flex-col'>
                     <div id='timer' className="grid grid-cols-4 gap-4">
-
                         <div className="col-span-1 w-12">
                             {`${timeLeft.days}`}
                         </div>
@@ -78,24 +69,23 @@ const Countdown = () => {
                             {`${timeLeft.seconds}`}
                         </div>
 
-                        <div className="col-span-1  w-12 text-2xl">
+                        <div className="col-span-1 w-12 text-2xl">
                             D
                         </div>
-                        <div className="col-span-1  w-12 text-2xl">
+                        <div className="col-span-1 w-12 text-2xl">
                             H
                         </div>
-                        <div className="col-span-1  w-12 text-2xl">
+                        <div className="col-span-1 w-12 text-2xl">
                             M
                         </div>
-                        <div className="col-span-1  w-12 text-2xl">
+                        <div className="col-span-1 w-12 text-2xl">
                             S
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Countdown
+export default Countdown;
