@@ -35,7 +35,7 @@ const Acronym = () => {
     return (
         <div id='acronym' className='font-marcellus w-full h-screen text-center bg-[#F7FAFA] dark:bg-[#253130] selection:text-[#F7FAFA] dark:selection:text-[#09302C] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
             <div className='w-full h-full mx-auto flex flex-col justify-center items-center relative'>
-                <div className='absolute z-0 center-0 w-[850px] h-[850px] z-0'>
+                <div className='absolute z-0 center-0 w-[500px] h-[500px] md:w-[850px] md:h-[850px] z-0'>
                     <div className='opacity-10 block dark:hidden'>
                         <Image
                             src={LogoB}
@@ -52,22 +52,22 @@ const Acronym = () => {
                     </div>
                 </div>
                 
-                <div className='z-10'>
+                <div className='z-10 flex flex-col items-center'>
                     <div className='flex justify-center items-center select-none'>
                         {Array.from('Health').map((letter, index) => (
                             <div
                                 key={index}
-                                className={`${letter === currLetter ? 'bg-[#CADEDF] dark:bg-[#253130]' : 'bg-white dark:bg-[#041312]'} text-3xl text-center w-[60px] uppercase text-black dark:text-white font-bold py-2 px-4 cursor-pointer border-2 border-[#09302C] dark:border-[#F7FAFA]`}
+                                className={`${letter === currLetter ? 'bg-[#CADEDF] dark:bg-[#253130]' : 'bg-white dark:bg-[#041312]'} text-lg md:text-3xl text-center w-[50px] md:w-[60px] uppercase text-black dark:text-white font-bold py-2 px-4 cursor-pointer border-2 border-[#09302C] dark:border-[#F7FAFA]`}
                                 onClick={() => handleClick(letter)}
                             >
                                 {letter}
                             </div>
                         ))}
                     </div>
-                    <div className='h-[60px] w-[600px] flex mt-8 justify-center items-center text-2xl bg-[#CADEDF] dark:bg-[#253130] text-black dark:text-white border-2 border-[#09302C] dark:border-[#F7FAFA]'>
+                    <div className='h-[60px] w-[250px] md:w-[600px] flex mt-8 justify-center items-center text-2xl bg-[#CADEDF] dark:bg-[#253130] text-black dark:text-white border-2 border-[#09302C] dark:border-[#F7FAFA]'>
                         {currWord}
                     </div>
-                    <div className='font-montserrat h-[300px] w-[600px] p-6 mt-4 flex justify-center items-center text-md bg-white dark:bg-[#041312] text-black dark:text-white border-2 border-[#09302C] dark:border-[#F7FAFA]'>
+                    <div className='font-montserrat h-[250px] md:h-[300px] w-[400px] md:w-[600px] p-6 mt-4 flex justify-center items-center text-sm md:text-lg bg-white dark:bg-[#041312] text-black dark:text-white border-2 border-[#09302C] dark:border-[#F7FAFA]'>
                         {currDetails}
                     </div>
                 </div>

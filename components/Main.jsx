@@ -83,12 +83,12 @@ const Main = () => {
                             <motion.div variants={stagger}>
                                 <div className='relative z-10'>
                                     <motion.div variants={fadeInUp}>
-                                        <h1 className='font-medium text-9xl font-marcellus py-4 select-none'>
-                                            H<span className='text-8xl'>ealth</span>MUN
+                                        <h1 className='font-medium text-6xl md:text-9xl font-marcellus py-4 select-none'>
+                                            H<span className='text-5xl md:text-8xl'>ealth</span>MUN
                                         </h1>
 
                                         <div className='max-w-[300px] m-auto select-none'>
-                                            <div className='font-medium text-2xl uppercase'>
+                                            <div className='font-medium text-xl md:text-2xl uppercase'>
                                                 June 11 - July 9, 2024
                                             </div>
                                         </div>

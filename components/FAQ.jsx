@@ -35,15 +35,15 @@ const FAQ = () => {
 
     return (
         <div id='faq' className='font-marcellus w-full h-auto pb-2 text-center bg-[#CADEDF] dark:bg-[#1a2726]'>
-            <div className='w-full h-[200px] mx-auto flex justify-center items-center bg-[#16796F] dark:bg-[#041312] text-[#F7FAFA]'>
-                <div className='p-8 text-6xl uppercase flex select-none'>
+            <div className='w-full h-[150px] md:h-[200px] mx-auto flex justify-center items-center bg-[#16796F] dark:bg-[#041312] text-[#F7FAFA]'>
+                <div className='p-8 text-5xl md:text-6xl uppercase flex select-none'>
                     FAQ
                 </div>
             </div>
 
-            <div className='px-16 py-8 mt-12 mx-32 grid grid-cols-3 gap-x-8 text-[#09302C] selection:text-[#F7FAFA] dark:selection:text-[#041312] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
-                
-                <div className="col-span-1 border-4 bg-white border-white dark:border-[#F7FAFA] transition-opacity duration-300" onMouseEnter={() => setWhereH(true)} onMouseLeave={() => setWhereH(false)} >
+            <div className='px-8 md:px-16 py-8 mt-12 md:mx-32 grid grid-cols-1 md:grid-cols-3 md:gap-x-8 gap-y-8 md:gap-y-0 text-[#09302C] selection:text-[#F7FAFA] dark:selection:text-[#041312] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
+
+                {/* <div className="col-span-1 border-4 bg-white border-white dark:border-[#F7FAFA] transition-opacity duration-300" onMouseEnter={() => setWhereH(true)} onMouseLeave={() => setWhereH(false)} >
                     <div className='flex justify-center items-center'>
                         <Image src={whereH ? WhereGIF : WhereStatic} alt="/" width='220' height='220' />
                     </div>
@@ -57,54 +57,60 @@ const FAQ = () => {
                     <div className='flex justify-center items-center'>
                         <Image src={regH ? RegGIF : RegStatic} alt="/" width='220' height='220' />
                     </div>
-                </div>
-
-                {/* <div className="col-span-1 p-8 text-2xl bg-[#16796F] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312] border-2 border-b-0 border-[#09302C] dark:border-[#F7FAFA]">
-                    <div className='p-4 flex justify-center items-center'>
-                        <MdLocationOn size={100} />
-                    </div>
-                </div>
-                <div className="col-span-1 p-8 text-2xl bg-[#16796F] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312] border-2 border-b-0 border-[#09302C] dark:border-[#F7FAFA]">
-                    <div className='p-4 flex justify-center items-center'>
-                        <FaRegCalendarAlt size={100} />
-                    </div>
-                </div>
-                <div className="col-span-1 p-8 text-2xl bg-[#16796F] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312] border-2 border-b-0 border-[#09302C] dark:border-[#F7FAFA]">
-                    <div className='p-4 flex justify-center items-center'>
-                        <IoEnter size={100} />
-                    </div>
                 </div> */}
 
-                <div className="col-span-1 p-8 bg-[#16796F] text-white dark:bg-[#041312] dark:text-[#F7FAFA] border-4 border-t-0 border-white dark:border-[#F7FAFA]">
-                    <h2 className='p-4'>
-                        Where?
-                    </h2>
-                    <h5 className='p-4 font-montserrat'>
-                        The conference will take place at ...
-                    </h5>
-                </div>
-                <div className="col-span-1 p-8 bg-[#16796F] text-white dark:bg-[#041312] dark:text-[#F7FAFA] border-4 border-t-0 border-white dark:border-[#F7FAFA]">
-                    <h2 className='p-4'>
-                        When?
-                    </h2>
-                    <h5 className='p-4 font-montserrat'>
-                        The conference is from ...
-                    </h5>
-                </div>
-                <div className="col-span-1 p-8 bg-[#16796F] text-white dark:bg-[#041312] dark:text-[#F7FAFA] border-4 border-t-0 border-white dark:border-[#F7FAFA]">
-                    <h2 className='p-4'>
-                        Registration?
-                    </h2>
-                    <h5 className='p-4 font-montserrat'>
-                        You can register at ...
-                    </h5>
+                <div className="col-span-1 border-4 border-white dark:border-[#F7FAFA]">
+                    <div className="h-[150px] md:h-[200px] p-8 flex justify-center items-center text-2xl bg-[#16796F] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312]">
+                        <div className='p-4'>
+                            <MdLocationOn size={100} />
+                        </div>
+                    </div>
+                    <div className="h-[250px] p-8 bg-[#F7FAFA] text-black dark:bg-[#041312] dark:text-[#F7FAFA]">
+                        <h2 className='p-4'>
+                            Where?
+                        </h2>
+                        <h5 className='p-4 font-montserrat'>
+                            The conference will take place at ...
+                        </h5>
+                    </div>
                 </div>
 
+                <div className="col-span-1 border-4 border-white dark:border-[#F7FAFA]">
+                    <div className="h-[150px] md:h-[200px] p-8 flex justify-center items-center text-2xl bg-[#16796F] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312]">
+                        <div className='p-4'>
+                            <FaRegCalendarAlt size={100} />
+                        </div>
+                    </div>
+                    <div className="h-[250px] p-8 bg-[#F7FAFA] text-black dark:bg-[#041312] dark:text-[#F7FAFA]">
+                        <h2 className='p-4'>
+                            When?
+                        </h2>
+                        <h5 className='p-4 font-montserrat'>
+                            The conference is from ...
+                        </h5>
+                    </div>
+                </div>
+
+                <div className="col-span-1 border-4 border-white dark:border-[#F7FAFA]">
+                    <div className="h-[150px] md:h-[200px] p-8 flex justify-center items-center text-2xl bg-[#16796F] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312]">
+                        <div className='p-4'>
+                            <IoEnter size={100} />
+                        </div>
+                    </div>
+                    <div className="h-[250px] p-8 bg-[#F7FAFA] text-black dark:bg-[#041312] dark:text-[#F7FAFA]">
+                        <h2 className='p-4'>
+                            Registration?
+                        </h2>
+                        <h5 className='p-4 font-montserrat'>
+                            You can register at ...
+                        </h5>
+                    </div>
+                </div>
             </div>
 
-            <div className='px-16 py-8 mx-32 grid grid-cols-3 gap-x-8 text-[#09302C] selection:text-[#F7FAFA] dark:selection:text-[#041312] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
+            <div className='px-8 md:px-16 py-8 pt-0 md:mt-12 md:mx-32 grid grid-cols-1 md:grid-cols-3 md:gap-x-8 gap-y-8 md:gap-y-0 text-[#09302C] selection:text-[#F7FAFA] dark:selection:text-[#041312] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
 
-                <div className="col-span-1 border-4 bg-white border-white dark:border-[#F7FAFA] transition-opacity duration-300" onMouseEnter={() => setEligH(true)} onMouseLeave={() => setEligH(false)} >
+                {/* <div className="col-span-1 border-4 bg-white border-white dark:border-[#F7FAFA] transition-opacity duration-300" onMouseEnter={() => setEligH(true)} onMouseLeave={() => setEligH(false)} >
                     <div className='flex justify-center items-center'>
                         <Image src={eligH ? EligGIF : EligStatic} alt="/" width='220' height='220' />
                     </div>
@@ -118,49 +124,55 @@ const FAQ = () => {
                     <div className='flex justify-center items-center'>
                         <Image src={awardsH ? AwardsGIF : AwardsStatic} alt="/" width='220' height='220' />
                     </div>
-                </div>
-
-                {/* <div className="col-span-1 p-8 text-2xl bg-[#16796F] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312] border-2 border-b-0 border-[#09302C] dark:border-[#F7FAFA]">
-                    <div className='p-4 flex justify-center items-center'>
-                        <BsFillPersonCheckFill size={100} />
-                    </div>
-                </div>
-                <div className="col-span-1 p-8 text-2xl bg-[#16796F] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312] border-2 border-b-0 border-[#09302C] dark:border-[#F7FAFA]">
-                    <div className='p-4 flex justify-center items-center'>
-                        <FaMoneyCheckAlt size={100} />
-                    </div>
-                </div>
-                <div className="col-span-1 p-8 text-2xl bg-[#16796F] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312] border-2 border-b-0 border-[#09302C] dark:border-[#F7FAFA]">
-                    <div className='p-4 flex justify-center items-center'>
-                        <PiGavelFill size={100} />
-                    </div>
                 </div> */}
 
-                <div className="col-span-1 p-8 bg-[#16796F] text-white dark:bg-[#041312] dark:text-[#F7FAFA] border-4 border-t-0 border-white dark:border-[#F7FAFA]">
-                    <h2 className='p-4'>
-                        Eligibility
-                    </h2>
-                    <h5 className='p-4 font-montserrat'>
-                        You are eligible if ...
-                    </h5>
-                </div>
-                <div className="col-span-1 p-8 bg-[#16796F] text-white dark:bg-[#041312] dark:text-[#F7FAFA] border-4 border-t-0 border-white dark:border-[#F7FAFA]">
-                    <h2 className='p-4'>
-                        Fees
-                    </h2>
-                    <h5 className='p-4 font-montserrat'>
-                        The conference costs ...
-                    </h5>
-                </div>
-                <div className="col-span-1 p-8 bg-[#16796F] text-white dark:bg-[#041312] dark:text-[#F7FAFA] border-4 border-t-0 border-white dark:border-[#F7FAFA]">
-                    <h2 className='p-4'>
-                        Awards
-                    </h2>
-                    <h5 className='p-4 font-montserrat'>
-                        The conference awards ...
-                    </h5>
+                <div className="col-span-1 border-4 border-white dark:border-[#F7FAFA]">
+                    <div className="h-[150px] md:h-[200px] p-8 flex justify-center items-center text-2xl bg-[#16796F] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312]">
+                        <div className='p-4'>
+                            <BsFillPersonCheckFill size={100} />
+                        </div>
+                    </div>
+                    <div className="h-[250px] p-8 bg-[#F7FAFA] text-black dark:bg-[#041312] dark:text-[#F7FAFA]">
+                        <h2 className='p-4'>
+                            Eligibility
+                        </h2>
+                        <h5 className='p-4 font-montserrat'>
+                            You are eligible if ...
+                        </h5>
+                    </div>
                 </div>
 
+                <div className="col-span-1 border-4 border-white dark:border-[#F7FAFA]">
+                    <div className="h-[150px] md:h-[200px] p-8 flex justify-center items-center text-2xl bg-[#16796F] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312]">
+                        <div className='p-4'>
+                            <FaMoneyCheckAlt size={100} />
+                        </div>
+                    </div>
+                    <div className="h-[250px] p-8 bg-[#F7FAFA] text-black dark:bg-[#041312] dark:text-[#F7FAFA]">
+                        <h2 className='p-4'>
+                            Fees
+                        </h2>
+                        <h5 className='p-4 font-montserrat'>
+                            The conference costs ...
+                        </h5>
+                    </div>
+                </div>
+
+                <div className="col-span-1 border-4 border-white dark:border-[#F7FAFA]">
+                    <div className="h-[150px] md:h-[200px] p-8 flex justify-center items-center text-2xl bg-[#16796F] dark:bg-[#cadede] text-[#F7FAFA] dark:text-[#041312]">
+                        <div className='p-4'>
+                            <PiGavelFill size={100} />
+                        </div>
+                    </div>
+                    <div className="h-[250px] p-8 bg-[#F7FAFA] text-black dark:bg-[#041312] dark:text-[#F7FAFA]">
+                        <h2 className='p-4'>
+                            Awards
+                        </h2>
+                        <h5 className='p-4 font-montserrat'>
+                            The conference awards ...
+                        </h5>
+                    </div>
+                </div>
             </div>
 
             <div className='text-xl font-montserrat p-4 mt-4 mb-12 uppercase flex select-none justify-center items-center'>

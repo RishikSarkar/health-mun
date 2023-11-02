@@ -49,12 +49,12 @@ const Countdown = () => {
 
     return (
         <div id='countdown' className='font-marcellus w-full h-full text-center text-[#F7FAFA] bg-[#16796F] dark:bg-[#041312] select-none'>
-            <div className='w-full h-[300px] mx-auto flex flex-col justify-center items-center'>
-                <div className='p-3 text-xl uppercase flex'>
+            <div className='w-full h-[200px] md:h-[300px] mx-auto flex flex-col justify-center items-center'>
+                <div className='p-3 text-lg md:text-xl uppercase flex'>
                     Conference Starts in
                 </div>
 
-                <div className='mt-4 p-3 text-3xl flex flex-col'>
+                <div className='mt-4 p-3 text-xl md:text-3xl flex flex-col'>
                     <div id='timer' className="grid grid-cols-4 gap-4">
                         <div className="col-span-1 w-12">
                             {`${timeLeft.days}`}
@@ -69,16 +69,16 @@ const Countdown = () => {
                             {`${timeLeft.seconds}`}
                         </div>
 
-                        <div className="col-span-1 w-12 text-2xl">
+                        <div className="col-span-1 w-12 text-xl md:text-2xl">
                             D
                         </div>
-                        <div className="col-span-1 w-12 text-2xl">
+                        <div className="col-span-1 w-12 text-xl md:text-2xl">
                             H
                         </div>
-                        <div className="col-span-1 w-12 text-2xl">
+                        <div className="col-span-1 w-12 text-xl md:text-2xl">
                             M
                         </div>
-                        <div className="col-span-1 w-12 text-2xl">
+                        <div className="col-span-1 w-12 text-xl md:text-2xl">
                             S
                         </div>
                     </div>
