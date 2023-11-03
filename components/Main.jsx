@@ -44,7 +44,7 @@ const Main = () => {
 
     return (
         <motion.div initial='initial' animate='animate'>
-            <div id='home' className='font-marcellus w-full h-screen text-center text-[#F7FAFA]'>
+            <div id='home' className='font-marcellus w-full h-[80vh] md:h-screen text-center text-[#F7FAFA]'>
                 <div className='flex justify-center h-full items-center'>
                     <ParallaxBanner
                         layers={[

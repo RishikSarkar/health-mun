@@ -16,7 +16,7 @@ const Contact = () => {
     }
 
     return (
-        <div className='font-marcellus w-full h-screen flex flex-col justify-center items-center text-center bg-[#16796F] dark:bg-[#041312] text-[#F7FAFA] selection:text-[#F7FAFA] dark:selection:text-[#041312] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
+        <div className='font-marcellus w-full h-[80vh] md:h-screen flex flex-col justify-center items-center text-center bg-[#16796F] dark:bg-[#041312] text-[#F7FAFA] selection:text-[#F7FAFA] dark:selection:text-[#041312] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
             <div id='contact' className='pt-8 mt-24 text-3xl uppercase flex select-none'>
                 Contact Us
             </div>
