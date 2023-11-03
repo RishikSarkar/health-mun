@@ -11,7 +11,9 @@ function MyApp({ Component, pageProps }) {
             <ThemeProvider attribute='class'>
                 <ParallaxProvider>
                     <ManualProvider>
-                        <Navbar />
+                        <Navbar>
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                        </Navbar>
                         <Component {...pageProps} />
                         <Contact />
                     </ManualProvider>
