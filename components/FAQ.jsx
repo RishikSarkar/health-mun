@@ -34,7 +34,7 @@ const FAQ = () => {
     // const [awardsH, setAwardsH] = useState(false);
 
     return (
-        <div id='faq' className='font-marcellus w-full h-auto pb-2 text-center bg-[#CADEDF] dark:bg-[#1a2726]'>
+        <div id='faq' className='font-marcellus w-full h-auto pb-2 text-center bg-[#CADEDF] dark:bg-[#1a2726] overflow-x-hidden'>
             <div className='w-full h-[150px] md:h-[200px] mx-auto flex justify-center items-center bg-[#16796F] dark:bg-[#041312] text-[#F7FAFA]'>
                 <div className='p-8 text-5xl md:text-6xl uppercase flex select-none'>
                     FAQ
