@@ -52,8 +52,8 @@ const Navbar = () => {
     };
 
     return (
-        <div id='navbar' className={visible ? 'font-montserrat text-[#F7FAFA] fixed w-full bg-[#16796F] dark:bg-[#041312] h-28 z-[100] select-none transition-all duration-200 overflow-x-hidden' :
-            'font-montserrat text-[#F7FAFA] fixed w-full h-28 z-[100] select-none transition-all duration-200 overflow-x-hidden'}>
+        <div id='navbar' className={visible ? 'font-montserrat text-[#F7FAFA] fixed w-full bg-[#16796F] dark:bg-[#041312] h-28 z-[100] select-none transition-all duration-200 xs:overflow-x-hidden' :
+            'font-montserrat text-[#F7FAFA] fixed w-full h-28 z-[100] select-none transition-all duration-200 xs:overflow-x-hidden'}>
             <div className='flex justify-between items-center w-full h-full px-8'>
                 <Link href='/'>
                     <div className='flex items-center'>
