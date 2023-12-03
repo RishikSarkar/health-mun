@@ -67,7 +67,7 @@ const Acronym = () => {
                     <div className='h-[60px] w-[60vw] md:w-[600px] flex mt-8 justify-center items-center text-2xl bg-[#CADEDF] dark:bg-[#253130] text-black dark:text-[#F7FAFA] border-2 border-[#09302C] dark:border-[#F7FAFA]'>
                         {currWord}
                     </div>
-                    <div className='font-montserrat h-[35vh] w-[90vw] md:h-[300px] md:w-[600px] p-6 mt-4 flex justify-center items-center text-sm md:text-lg bg-[#F7FAFA] dark:bg-[#041312] text-black dark:text-[#F7FAFA] border-2 border-[#09302C] dark:border-[#F7FAFA]'>
+                    <div className='font-marcellus h-[35vh] w-[90vw] md:h-[300px] md:w-[600px] p-6 px-8 mt-4 flex justify-center items-center text-sm md:text-lg bg-[#F7FAFA] dark:bg-[#041312] text-black dark:text-[#F7FAFA] border-2 border-[#09302C] dark:border-[#F7FAFA]'>
                         {currDetails}
                     </div>
                 </div>

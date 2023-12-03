@@ -69,7 +69,7 @@ const FAQ = () => {
                         <h2 className='p-4'>
                             Where?
                         </h2>
-                        <h5 className='p-4 font-montserrat'>
+                        <h5 className='p-4 font-marcellus'>
                             The conference will take place at ...
                         </h5>
                     </div>
@@ -85,7 +85,7 @@ const FAQ = () => {
                         <h2 className='p-4'>
                             When?
                         </h2>
-                        <h5 className='p-4 font-montserrat'>
+                        <h5 className='p-4 font-marcellus'>
                             The conference is from ...
                         </h5>
                     </div>
@@ -101,7 +101,7 @@ const FAQ = () => {
                         <h2 className='p-4'>
                             Registration?
                         </h2>
-                        <h5 className='p-4 font-montserrat'>
+                        <h5 className='p-4 font-marcellus'>
                             You can register at ...
                         </h5>
                     </div>
@@ -136,7 +136,7 @@ const FAQ = () => {
                         <h2 className='p-4'>
                             Eligibility
                         </h2>
-                        <h5 className='p-4 font-montserrat'>
+                        <h5 className='p-4 font-marcellus'>
                             You are eligible if ...
                         </h5>
                     </div>
@@ -152,7 +152,7 @@ const FAQ = () => {
                         <h2 className='p-4'>
                             Fees
                         </h2>
-                        <h5 className='p-4 font-montserrat'>
+                        <h5 className='p-4 font-marcellus'>
                             The conference costs ...
                         </h5>
                     </div>
@@ -168,14 +168,14 @@ const FAQ = () => {
                         <h2 className='p-4'>
                             Awards
                         </h2>
-                        <h5 className='p-4 font-montserrat'>
+                        <h5 className='p-4 font-marcellus'>
                             The conference awards ...
                         </h5>
                     </div>
                 </div>
             </div>
 
-            <div className='text-xl font-montserrat p-4 mt-4 mb-12 uppercase flex select-none justify-center items-center'>
+            <div className='text-xl font-marcellus p-4 mt-4 mb-12 uppercase flex select-none justify-center items-center'>
                 <div className='p-6 bg-[#16796F] text-[#F7FAFA] dark:bg-[#041312] dark:text-[#F7FAFA] hover:bg-[#16796F]/60 dark:hover:bg-[#041312]/20 border-4 border-white dark:border-[#F7FAFA] cursor-pointer ease-in duration-100'>
                     <Link href='/#contact'>
                         Questions?

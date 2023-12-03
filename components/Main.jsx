@@ -44,15 +44,15 @@ const Main = () => {
 
     return (
         <motion.div initial='initial' animate='animate'>
-            <div id='home' className='font-marcellus w-full h-[80vh] md:h-screen text-center text-[#F7FAFA] overflow-x-hidden overflow-y-hidden'>
+            <div id='home' className='font-marcellus w-full h-[90vh] md:h-screen text-center text-[#F7FAFA] overflow-x-hidden overflow-y-hidden'>
                 <div className='flex justify-center h-full items-center'>
                     <ParallaxBanner
                         layers={[
                             {
                                 speed: -40,
                                 children: (
-                                    <div className='w-[50%] h-[50%] absolute left-0 top-[25%] z-0 bg-[#181C19]'>
-                                        <div className='opacity-30 dark:opacity-10'>
+                                    <div className='w-[50%] h-[50%] absolute left-0 top-[25%] z-0 bg-[#16796F] dark:bg-[#041312] md:bg-[#181C19] md:dark:bg-[#181C19]'>
+                                        <div className='hidden md:block opacity-30 dark:opacity-10'>
                                             <Image
                                                 src={placeholder1}
                                                 fill={true}
@@ -65,8 +65,8 @@ const Main = () => {
                             {
                                 speed: -40,
                                 children: (
-                                    <div className='w-[50%] h-[50%] absolute right-0 top-[25%] z-0 bg-[#12201E]'>
-                                        <div className='opacity-30 dark:opacity-10'>
+                                    <div className='w-[50%] h-[50%] absolute right-0 top-[25%] z-0 bg-[#16796F]/90 dark:bg-[#1a2726] md:bg-[#12201E] md:dark:bg-[#12201E]'>
+                                        <div className='hidden md:block opacity-30 dark:opacity-10'>
                                             <Image
                                                 src={placeholder2}
                                                 fill={true}
