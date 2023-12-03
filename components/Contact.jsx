@@ -27,26 +27,26 @@ const Contact = () => {
 
                         <div className='flex flex-col xs:items-center'>
                             <label className='uppercase text-sm py-2 select-none'>First Name</label>
-                            <input className='xs:w-[25vw] text-black dark:text-white bg-white dark:bg-black/40 border-2 py-1 px-2 flex' name='First_Name' type="text" style={{ outline: 'none' }} />
+                            <input className='xs:w-[25vw] text-black dark:text-[#F7FAFA] bg-[#F7FAFA] dark:bg-black/40 border-2 py-1 px-2 flex' name='First_Name' type="text" style={{ outline: 'none' }} />
                         </div>
 
                         <div className='flex flex-col xs:items-center'>
                             <label className='uppercase text-sm py-2 select-none'>Last Name</label>
-                            <input className='xs:w-[25vw] text-black dark:text-white bg-white dark:bg-black/40 border-2 py-1 px-2 flex' name='Last_Name' type="text" style={{ outline: 'none' }} />
+                            <input className='xs:w-[25vw] text-black dark:text-[#F7FAFA] bg-[#F7FAFA] dark:bg-black/40 border-2 py-1 px-2 flex' name='Last_Name' type="text" style={{ outline: 'none' }} />
                         </div>
                     </div>
 
                     <div className='flex flex-col xs:items-center'>
                         <label className='uppercase text-sm py-2 select-none'>Email Address *</label>
-                        <input className='xs:w-[52vw] text-black dark:text-white bg-white dark:bg-black/40 border-2 py-1 px-2 flex' name='Email' type="email" style={{ outline: 'none' }} required />
+                        <input className='xs:w-[52vw] text-black dark:text-[#F7FAFA] bg-[#F7FAFA] dark:bg-black/40 border-2 py-1 px-2 flex' name='Email' type="email" style={{ outline: 'none' }} required />
                     </div>
 
                     <div className='flex flex-col py-2 xs:items-center'>
                         <label className='uppercase text-sm py-2 select-none'>Message *</label>
-                        <textarea className='xs:w-[52vw] text-black dark:text-white bg-white dark:bg-black/40 border-2 py-1 px-2' name='Message' type="text" rows='3' style={{ resize: 'none', outline: 'none' }} required></textarea>
+                        <textarea className='xs:w-[52vw] text-black dark:text-[#F7FAFA] bg-[#F7FAFA] dark:bg-black/40 border-2 py-1 px-2' name='Message' type="text" rows='3' style={{ resize: 'none', outline: 'none' }} required></textarea>
                     </div>
 
-                    <button className='text-md py-2 w-[50%] px-4 mt-6 bg-white/10 dark:bg-black/40 border-2 border-[#16796F] dark:border-white hover:bg-white/30 dark:hover:bg-black/20 ease-in duration-100 select-none'>Submit</button>
+                    <button className='text-md py-2 w-[50%] px-4 mt-6 bg-[#F7FAFA]/10 dark:bg-black/40 border-2 border-[#16796F] dark:border-white hover:bg-[#F7FAFA]/30 dark:hover:bg-black/20 ease-in duration-100 select-none'>Submit</button>
 
                 </form>
             </div>

@@ -41,19 +41,19 @@ const FAQ = () => {
                 </div>
             </div>
 
-            <div className='px-8 md:px-16 py-8 mt-12 md:mx-32 grid grid-cols-1 md:grid-cols-3 md:gap-x-8 gap-y-12 md:gap-y-0 text-[#09302C] selection:text-[#F7FAFA] dark:selection:text-[#041312] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
+            <div className='px-8 md:px-16 py-8 mt-12 md:mx-32 grid grid-cols-1 md:grid-cols-3 md:gap-x-8 gap-y-12 md:gap-y-0 text-black selection:text-[#F7FAFA] dark:selection:text-[#041312] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
 
-                {/* <div className="col-span-1 border-4 bg-white border-white dark:border-[#F7FAFA] transition-opacity duration-300" onMouseEnter={() => setWhereH(true)} onMouseLeave={() => setWhereH(false)} >
+                {/* <div className="col-span-1 border-4 bg-[#F7FAFA] border-white dark:border-[#F7FAFA] transition-opacity duration-300" onMouseEnter={() => setWhereH(true)} onMouseLeave={() => setWhereH(false)} >
                     <div className='flex justify-center items-center'>
                         <Image src={whereH ? WhereGIF : WhereStatic} alt="/" width='220' height='220' />
                     </div>
                 </div>
-                <div className="col-span-1 border-4 bg-white border-white dark:border-[#F7FAFA] transition-opacity duration-300" onMouseEnter={() => setWhenH(true)} onMouseLeave={() => setWhenH(false)} >
+                <div className="col-span-1 border-4 bg-[#F7FAFA] border-white dark:border-[#F7FAFA] transition-opacity duration-300" onMouseEnter={() => setWhenH(true)} onMouseLeave={() => setWhenH(false)} >
                     <div className='flex justify-center items-center'>
                         <Image src={whenH ? WhenGIF : WhenStatic} alt="/" width='220' height='220' />
                     </div>
                 </div>
-                <div className="col-span-1 border-4 bg-white border-white dark:border-[#F7FAFA] transition-opacity duration-300" onMouseEnter={() => setRegH(true)} onMouseLeave={() => setRegH(false)} >
+                <div className="col-span-1 border-4 bg-[#F7FAFA] border-white dark:border-[#F7FAFA] transition-opacity duration-300" onMouseEnter={() => setRegH(true)} onMouseLeave={() => setRegH(false)} >
                     <div className='flex justify-center items-center'>
                         <Image src={regH ? RegGIF : RegStatic} alt="/" width='220' height='220' />
                     </div>
@@ -108,19 +108,19 @@ const FAQ = () => {
                 </div>
             </div>
 
-            <div className='px-8 md:px-16 py-8 pt-4 md:pt-8 md:mt-12 md:mx-32 grid grid-cols-1 md:grid-cols-3 md:gap-x-8 gap-y-12 md:gap-y-0 text-[#09302C] selection:text-[#F7FAFA] dark:selection:text-[#041312] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
+            <div className='px-8 md:px-16 py-8 pt-4 md:pt-8 md:mt-12 md:mx-32 grid grid-cols-1 md:grid-cols-3 md:gap-x-8 gap-y-12 md:gap-y-0 text-black selection:text-[#F7FAFA] dark:selection:text-[#041312] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA]'>
 
-                {/* <div className="col-span-1 border-4 bg-white border-white dark:border-[#F7FAFA] transition-opacity duration-300" onMouseEnter={() => setEligH(true)} onMouseLeave={() => setEligH(false)} >
+                {/* <div className="col-span-1 border-4 bg-[#F7FAFA] border-white dark:border-[#F7FAFA] transition-opacity duration-300" onMouseEnter={() => setEligH(true)} onMouseLeave={() => setEligH(false)} >
                     <div className='flex justify-center items-center'>
                         <Image src={eligH ? EligGIF : EligStatic} alt="/" width='220' height='220' />
                     </div>
                 </div>
-                <div className="col-span-1 border-4 bg-white border-white dark:border-[#F7FAFA] transition-opacity duration-300" onMouseEnter={() => setFeesH(true)} onMouseLeave={() => setFeesH(false)} >
+                <div className="col-span-1 border-4 bg-[#F7FAFA] border-white dark:border-[#F7FAFA] transition-opacity duration-300" onMouseEnter={() => setFeesH(true)} onMouseLeave={() => setFeesH(false)} >
                     <div className='flex justify-center items-center'>
                         <Image src={feesH ? FeesGIF : FeesStatic} alt="/" width='220' height='220' />
                     </div>
                 </div>
-                <div className="col-span-1 border-4 bg-white border-white dark:border-[#F7FAFA] transition-opacity duration-300" onMouseEnter={() => setAwardsH(true)} onMouseLeave={() => setAwardsH(false)} >
+                <div className="col-span-1 border-4 bg-[#F7FAFA] border-white dark:border-[#F7FAFA] transition-opacity duration-300" onMouseEnter={() => setAwardsH(true)} onMouseLeave={() => setAwardsH(false)} >
                     <div className='flex justify-center items-center'>
                         <Image src={awardsH ? AwardsGIF : AwardsStatic} alt="/" width='220' height='220' />
                     </div>
@@ -176,7 +176,7 @@ const FAQ = () => {
             </div>
 
             <div className='text-xl font-montserrat p-4 mt-4 mb-12 uppercase flex select-none justify-center items-center'>
-                <div className='p-6 bg-[#16796F] text-white dark:bg-[#041312] dark:text-[#F7FAFA] hover:bg-[#16796F]/60 dark:hover:bg-[#041312]/20 border-4 border-white dark:border-[#F7FAFA] cursor-pointer ease-in duration-100'>
+                <div className='p-6 bg-[#16796F] text-[#F7FAFA] dark:bg-[#041312] dark:text-[#F7FAFA] hover:bg-[#16796F]/60 dark:hover:bg-[#041312]/20 border-4 border-white dark:border-[#F7FAFA] cursor-pointer ease-in duration-100'>
                     <Link href='/#contact'>
                         Questions?
                     </Link>

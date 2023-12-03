@@ -33,7 +33,7 @@ const Acronym = () => {
     };
 
     return (
-        <div id='acronym' className='font-marcellus w-full h-[80vh] md:h-screen text-center bg-[#F7FAFA] dark:bg-[#253130] selection:text-[#F7FAFA] dark:selection:text-[#09302C] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA] overflow-x-hidden'>
+        <div id='acronym' className='font-marcellus w-full h-[80vh] md:h-screen text-center bg-[#F7FAFA] dark:bg-[#253130] selection:text-[#F7FAFA] dark:selection:text-black selection:bg-[#09302C] dark:selection:bg-[#F7FAFA] overflow-x-hidden md:overflow-y-hidden'>
             <div className='w-full h-full mx-auto flex flex-col justify-center items-center relative'>
                 <div className='absolute z-0 center-0 w-[500px] h-[500px] md:w-[850px] md:h-[850px] z-0'>
                     <div className='opacity-10 block dark:hidden'>
@@ -57,17 +57,17 @@ const Acronym = () => {
                         {Array.from('Health').map((letter, index) => (
                             <div
                                 key={index}
-                                className={`${letter === currLetter ? 'bg-[#CADEDF] dark:bg-[#253130]' : 'bg-white dark:bg-[#041312]'} text-lg md:text-3xl text-center w-[50px] md:w-[60px] uppercase text-black dark:text-white font-bold py-2 px-4 cursor-pointer border-2 border-[#09302C] dark:border-[#F7FAFA]`}
+                                className={`${letter === currLetter ? 'bg-[#CADEDF] dark:bg-[#253130]' : 'bg-[#F7FAFA] dark:bg-[#041312]'} text-lg md:text-3xl text-center w-[50px] md:w-[60px] uppercase text-black dark:text-[#F7FAFA] font-bold py-2 px-4 cursor-pointer border-2 border-[#09302C] dark:border-[#F7FAFA]`}
                                 onClick={() => handleClick(letter)}
                             >
                                 {letter}
                             </div>
                         ))}
                     </div>
-                    <div className='h-[60px] w-[60vw] md:w-[600px] flex mt-8 justify-center items-center text-2xl bg-[#CADEDF] dark:bg-[#253130] text-black dark:text-white border-2 border-[#09302C] dark:border-[#F7FAFA]'>
+                    <div className='h-[60px] w-[60vw] md:w-[600px] flex mt-8 justify-center items-center text-2xl bg-[#CADEDF] dark:bg-[#253130] text-black dark:text-[#F7FAFA] border-2 border-[#09302C] dark:border-[#F7FAFA]'>
                         {currWord}
                     </div>
-                    <div className='font-montserrat h-[35vh] w-[90vw] md:h-[300px] md:w-[600px] p-6 mt-4 flex justify-center items-center text-sm md:text-lg bg-white dark:bg-[#041312] text-black dark:text-white border-2 border-[#09302C] dark:border-[#F7FAFA]'>
+                    <div className='font-montserrat h-[35vh] w-[90vw] md:h-[300px] md:w-[600px] p-6 mt-4 flex justify-center items-center text-sm md:text-lg bg-[#F7FAFA] dark:bg-[#041312] text-black dark:text-[#F7FAFA] border-2 border-[#09302C] dark:border-[#F7FAFA]'>
                         {currDetails}
                     </div>
                 </div>

@@ -13,7 +13,7 @@ const Welcome = () => {
 
     // flex items-center justify-center
     return (
-        <div id='welcome' className='pt-28 w-full h-full bg-[#F7FAFA] dark:bg-[#1a2726] selection:text-[#F7FAFA] dark:selection:text-[#09302C] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA] overflow-x-hidden'>
+        <div id='welcome' className='pt-28 w-full h-full bg-[#F7FAFA] dark:bg-[#1a2726] selection:text-[#F7FAFA] dark:selection:text-black selection:bg-[#09302C] dark:selection:bg-[#F7FAFA] overflow-x-hidden'>
             <div className='w-full h-full p-24 text-center bg-[#CADEDF] dark:bg-[#253130] dark:text-[#F7FAFA] border-b-4 border-[#16796F]/20 dark:border-[#F7FAFA]/20'>
                 <div className='text-6xl font-marcellus'>
                     Welcome
