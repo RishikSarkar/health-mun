@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { useManual } from '../../contexts/ManualContext';
 
-import placeholder1 from '../../public/assets/placeholder-bg-1.png'
+import placeholder_y from '../../public/assets/secretariat/placeholder_y.png'
+import placeholder_a from '../../public/assets/secretariat/placeholder_a.jpg'
 import rishik from '../../public/assets/secretariat/rishik.jpg'
 
 
@@ -28,7 +29,7 @@ const Secretariat = () => {
                     </div>
                     <div className="md:col-span-1 my-6 md:mt-0">
                         <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
-                            <Image src={placeholder1} width={500} />
+                            <Image src={placeholder_y} width={500} />
                         </div>
                         <div className="hidden md:flex justify-center">
                             {/* Change email */}
@@ -43,7 +44,25 @@ const Secretariat = () => {
                                 Yasmin C. Khan
                             </div>
                             <div className='text-left px-8 md:pb-6 py-4 md:py-2 text-sm border-4 md:border-0 border-[#16796F] dark:border-[#F7FAFA] max-h-[40vh] md:max-h-full overflow-y-scroll'>
-                                Yasmin C. Khan is a ...
+                                <p>Yasmin paints herself as a simple woman: an addict of cats, chess, and boba. These three pillars,
+                                    she claims, are essential for her survival. And if there were to be a fourth, it would undoubtedly
+                                    be Model United Nations—a passion she has basked in since the age of nine. Pre-COVID, Yasmin relished
+                                    traveling annually to conferences in the tri-state area, with EmpireMUNC, CMUNCE, and SHUMUN being
+                                    cherished highlights. It wasn’t until her junior year of high school that she achieved a gavel for
+                                    best delegate in EmpireMUNC’s sixth session, sparking a unique love for specialized crisis committees.
+                                    But with or without awards, Yasmin found joy in the meticulous practice of research, public speaking,
+                                    and creative resolution paper acronyms. Later in the collegiate realm, Yasmin discovered the universal
+                                    allure of Model UN, with conferences spanning the globe, including her blood roots in Morocco and Pakistan.</p>
+                                <p className='mt-2'>As a Muslim American, Yasmin spent her entire life in an Islamic private institution before embarking
+                                    on her pre-medical freshman year at Rutgers University, pursuing a double major in Neuroscience
+                                    and Psychology. As an aspiring health professional, she wanted her favorite academic pursuit to
+                                    be a valuable experience for STEM students like herself—educating insights into the intersection
+                                    of healthcare and international policies. To this day, her gratitude extends profusely to the
+                                    faculty and peers of her elementary, middle, and high school years who nurtured her Model UN
+                                    career from a young age. It was under their guidance that she recognized Model UN’s potential
+                                    as an extracurricular activity, cultivating skills beneficial to every student, regardless
+                                    of their intended career paths. In Yasmin’s eyes, the possibilities are limitless, and the
+                                    founding of HealthMUN was just the beginning.</p>
                             </div>
                         </div>
                     </div>
@@ -57,7 +76,7 @@ const Secretariat = () => {
                     </div>
                     <div className="md:col-span-1 my-6 md:mt-0">
                         <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
-                            <Image src={placeholder1} width={500} />
+                            <Image src={placeholder_a} width={500} />
                         </div>
                         <div className="hidden md:flex justify-center">
                             {/* Change email */}
@@ -72,7 +91,24 @@ const Secretariat = () => {
                                 Ayah Elzibak
                             </div>
                             <div className='text-left px-8 md:pb-6 py-4 md:py-2 text-sm border-4 md:border-0 border-[#16796F] dark:border-[#F7FAFA] max-h-[40vh] md:max-h-full overflow-y-scroll'>
-                                Ayah Elzibak is a ...
+                                If life were a sitcom, Ayah would be the quirky protagonist navigating the chaotic but utterly
+                                entertaining plot of existence. She defines herself as an inquisitive soul, navigating life with an
+                                inclination for calculated risks. She is deeply immersed in the fields of motor rehabilitation,
+                                physical movement, and entrepreneurship. While her academic pursuits may not align conventionally with
+                                the typical Model UN enthusiast, Ayah has discovered herself through taking part in a secretarial role
+                                within this organization, driven by a tenacious interest she has actively pursued. Picture this: her
+                                MUN journey kicking off in junior high, courtesy of her best friend and current Secretary General of
+                                HealthMUN, who, let's be honest, deserves an award for convincing her to join the team. Despite initial
+                                apprehensions, Ayah encouraged herself to keep engaging in various conferences, fueling her passion
+                                for public speaking, emotional intelligence, and conflict resolution—skills she deems essential in
+                                any new endeavors. Beyond MUN, Ayah has contributed as a Physical Therapy aide in numerous rehabilitation
+                                clinics and hospitals. Engaged in a global health initiative, she traveled to third-world countries,
+                                extending aid and medical relief to orphanages, educational institutions, and communities at large.
+                                She discovers a profound sense of peace in providing care, a sentiment she carries into her diverse
+                                interests. She takes pleasure in the continuous pursuit of knowledge, dedicating a considerable
+                                portion of her free time to exploring new interests and honing her skills in gymnastics, music,
+                                drawing, and the art of imaginative storytelling. For Ayah, the most challenging yet pivotal aspect
+                                of any new endeavor lies in taking that initial step—a philosophy she wholeheartedly embraces.
                             </div>
                         </div>
                     </div>
@@ -110,13 +146,13 @@ const Secretariat = () => {
                                 several years of development and research experience, his greatest ambition is to utilize
                                 machine learning in diagnosing and treating mental health disorders by pursuing a Master's
                                 degree and eventually establishing a digital health technology startup. Besides being one of
-                                the three founders, Rishik also serves as the Under-Secretary-General for Global Communications 
-                                and the Chief Technology Officer of HealthMUN; as a relatively new member of the Model U.N. scene, 
-                                he aims to learn more about conferences while building and maintaining the organization's online 
-                                platform. His ultimate dream for this conference is to host a hackathon-like committee for 
-                                delegates interested in the intersection of technology and healthcare: of course, all majors 
-                                would be welcome to participate! In his free time, Rishik enjoys coding ML projects (clearly!), 
-                                watching One Piece, and playing the guitar and the violin. His interest in linguistics has also 
+                                the three founders, Rishik also serves as the Under-Secretary-General for Global Communications
+                                and the Chief Technology Officer of HealthMUN; as a relatively new member of the Model U.N. scene,
+                                he aims to learn more about conferences while building and maintaining the organization's online
+                                platform. His ultimate dream for this conference is to host a hackathon-like committee for
+                                delegates interested in the intersection of technology and healthcare: of course, all majors
+                                would be welcome to participate! In his free time, Rishik enjoys coding ML projects (clearly!),
+                                watching One Piece, and playing the guitar and the violin. His interest in linguistics has also
                                 inspired him to learn Bengali, Hindi, Japanese, and German, so feel free to contact him in your
                                 native tongue!
                             </div>
