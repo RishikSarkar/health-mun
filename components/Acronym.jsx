@@ -51,13 +51,13 @@ const Acronym = () => {
                         />
                     </div>
                 </div>
-                
+
                 <div className='z-10 flex flex-col items-center'>
-                    <div className='flex justify-center items-center select-none'>
+                    <div className='flex justify-center items-center select-none border-2 border-r-0 border-[#09302C] dark:border-[#F7FAFA]'>
                         {Array.from('Health').map((letter, index) => (
                             <div
                                 key={index}
-                                className={`${letter === currLetter ? 'bg-[#CADEDF] dark:bg-[#253130]' : 'bg-[#F7FAFA] dark:bg-[#041312]'} text-lg md:text-3xl text-center w-[50px] md:w-[60px] uppercase text-black dark:text-[#F7FAFA] font-bold py-2 px-4 cursor-pointer border-2 border-[#09302C] dark:border-[#F7FAFA]`}
+                                className={`${letter === currLetter ? 'bg-[#CADEDF] dark:bg-[#253130]' : 'bg-[#F7FAFA] dark:bg-[#041312]'} text-lg md:text-3xl text-center w-[50px] md:w-[60px] uppercase text-black dark:text-[#F7FAFA] font-bold py-2 px-4 cursor-pointer border-r-2 border-[#09302C] dark:border-[#F7FAFA]`}
                                 onClick={() => handleClick(letter)}
                             >
                                 {letter}
