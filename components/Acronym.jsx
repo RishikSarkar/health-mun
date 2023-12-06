@@ -53,21 +53,21 @@ const Acronym = () => {
                 </div>
 
                 <div className='z-10 flex flex-col items-center'>
-                    <div className='flex justify-center items-center select-none border-2 border-r-0 border-[#09302C] dark:border-[#F7FAFA]'>
+                    <div className='flex justify-center items-center select-none border-4 border-r-0 border-[#09302C] dark:border-[#F7FAFA]'>
                         {Array.from('Health').map((letter, index) => (
                             <div
                                 key={index}
-                                className={`${letter === currLetter ? 'bg-[#CADEDF] dark:bg-[#253130]' : 'bg-[#F7FAFA] dark:bg-[#041312]'} text-lg md:text-3xl text-center w-[50px] md:w-[60px] uppercase text-black dark:text-[#F7FAFA] font-bold py-2 px-4 cursor-pointer border-r-2 border-[#09302C] dark:border-[#F7FAFA]`}
+                                className={`${letter === currLetter ? 'bg-[#1EA497] dark:bg-[#253130] text-[#F7FAFA]' : 'text-black bg-[#F7FAFA] dark:bg-[#041312]'} text-lg md:text-3xl text-center w-[50px] md:w-[60px] uppercase dark:text-[#F7FAFA] font-bold py-2 px-4 cursor-pointer border-r-4 border-[#09302C] dark:border-[#F7FAFA]`}
                                 onClick={() => handleClick(letter)}
                             >
                                 {letter}
                             </div>
                         ))}
                     </div>
-                    <div className='h-[60px] w-[60vw] md:w-[600px] flex mt-8 justify-center items-center text-2xl bg-[#CADEDF] dark:bg-[#253130] text-black dark:text-[#F7FAFA] border-2 border-[#09302C] dark:border-[#F7FAFA]'>
+                    <div className='h-[60px] w-[60vw] md:w-[600px] flex mt-8 justify-center items-center text-2xl bg-[#1EA497] dark:bg-[#253130] text-[#F7FAFA] border-4 border-b-0 border-[#09302C] dark:border-[#F7FAFA]'>
                         {currWord}
                     </div>
-                    <div className='font-marcellus h-[35vh] w-[90vw] md:h-[300px] md:w-[600px] p-6 px-8 mt-4 flex justify-center items-center text-sm md:text-lg bg-[#F7FAFA] dark:bg-[#041312] text-black dark:text-[#F7FAFA] border-2 border-[#09302C] dark:border-[#F7FAFA]'>
+                    <div className='font-marcellus h-[35vh] w-[90vw] md:h-[300px] md:w-[600px] p-6 px-8 flex justify-center items-center text-sm md:text-lg bg-[#F7FAFA] dark:bg-[#041312] text-black dark:text-[#F7FAFA] border-4 border-[#09302C] dark:border-[#F7FAFA]'>
                         {currDetails}
                     </div>
                 </div>

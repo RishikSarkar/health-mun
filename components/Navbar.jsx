@@ -126,7 +126,7 @@ const Navbar = () => {
                             uncheckedHandleIcon={false}
                             checkedHandleIcon={false}
                             onColor="#253130"
-                            offColor="#1ea496"
+                            offColor="#1EA497"
                         />
                     </ul>
                     <div onClick={handleNav} className='md:hidden cursor-pointer'>
