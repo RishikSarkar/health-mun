@@ -39,12 +39,12 @@ const Welcome = () => {
                     From the inception of HealthMUN, my primary goal has been to emphasize the intricate relationship between
                     global health and politics within the Model UN community. I firmly believe that irrespective of one’s
                     academic trajectory, individual interests, or prior experiences, Model UN fosters invaluable skills for
-                    all students as they prepare to navigate the real world. At HealthMUN, each and every one of you holds
-                    the potential to shape the world.
+                    all students as they prepare to navigate the real world. At HealthMUN, you will be addressing the most 
+                    difficult challenges in today’s healthcare.
                 </div>
                 <div className='text-sm md:text-base pt-6'>
                     With great anticipation and pride, the Secretariat and I usher you into a transformative era for the Model
-                    UN community worldwide. Join us in making this not just an event but a movement that redefines our collective
+                    UN community worldwide. Join us in making this not just an event but an initiative that redefines our collective
                     approach to global challenges.
                 </div>
                 <div className='text-sm md:text-base pt-6'>
