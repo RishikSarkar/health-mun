@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const Countdown = () => {
-    const targetDate = new Date('2024-06-11T12:00:00Z');
+    const targetDate = new Date('2024-01-13T16:00:00Z');
 
     const [timeLeft, setTimeLeft] = useState({
         days: null,
@@ -51,7 +51,8 @@ const Countdown = () => {
         <div id='countdown' className='font-marcellus w-full h-full text-center text-[#F7FAFA] bg-[#16796F] dark:bg-[#041312] select-none overflow-x-hidden'>
             <div className='w-full h-[200px] md:h-[300px] mx-auto flex flex-col justify-center items-center'>
                 <div className='p-3 text-lg md:text-xl uppercase flex'>
-                    Conference Starts in
+                    {/* Conference Starts in */}
+                    General Interest Meeting in
                 </div>
 
                 <div className='mt-4 p-3 text-xl md:text-3xl flex flex-col'>

@@ -5,6 +5,7 @@ import { useManual } from '../../contexts/ManualContext';
 import placeholder_y from '../../public/assets/secretariat/placeholder_y.png'
 import placeholder_a from '../../public/assets/secretariat/placeholder_a.jpg'
 import rishik from '../../public/assets/secretariat/rishik.jpg'
+import olivier from '../../public/assets/secretariat/olivier.jpg'
 
 
 const Secretariat = () => {
@@ -137,7 +138,7 @@ const Secretariat = () => {
                                 Rishik Sarkar
                             </div>
                             <div className='text-left px-8 md:pb-6 py-4 md:py-2 text-sm border-4 md:border-0 border-[#16796F] dark:border-[#F7FAFA] max-h-[40vh] md:max-h-full overflow-y-scroll'>
-                                Born in Los Angeles, California, and raised in West Bengal, India, Rishik considers himself a
+                                Born in California and raised in India, Rishik considers himself a
                                 member of a global community of innovationists. As a senior at Rutgers University-New Brunswick,
                                 double majoring in Computer Science and Cognitive Science, his passions lie in the nexus of
                                 artificial intelligence and cognitive neuropsychiatry. In addition to his academic ventures,
@@ -155,6 +156,54 @@ const Secretariat = () => {
                                 watching One Piece, and playing the guitar and the violin. His interest in linguistics has also
                                 inspired him to learn Bengali, Hindi, Japanese, and German, so feel free to contact him in your
                                 native tongue!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="md:col-span-3">
+                        <hr className="border-2 border-[#16796F]/20 dark:border-[#F7FAFA]/20 m-2 my-12 md:my-4" />
+                    </div>
+
+                    <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase'>
+                        USG for Global Communications
+                    </div>
+                    <div className="md:col-span-1 my-6 md:mt-0">
+                        <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
+                            <Image src={olivier} width={500} />
+                        </div>
+                        <div className="hidden md:flex justify-center">
+                            {/* Change email */}
+                            <a href="mailto:tempemail@gmail.com" className='font-montserrat p-4 text-sm mt-8 w-[15vw] uppercase text-center bg-[#16796F] text-[#F7FAFA] dark:bg-[#F7FAFA] dark:text-black hover:bg-[#16796F]/60 dark:hover:bg-[#F7FAFA]/50 border-0 border-[#16796F] dark:border-[#F7FAFA] cursor-pointer ease-in duration-100'>
+                                Contact Olivier
+                            </a>
+                        </div>
+                    </div>
+                    <div className="md:col-span-2 text-[#F7FAFA] dark:text-[#F7FAFA] border-0 border-[#16796F] dark:border-[#F7FAFA] pb-12 md:pb-0">
+                        <div className='w-full h-full bg-[#F7FAFA] dark:bg-[#1a2726] text-black dark:text-[#F7FAFA]'>
+                            <div className='text-center md:text-left px-8 pb-6 md:pb-2 text-xl md:text-2xl'>
+                                Olivier Diegue
+                            </div>
+                            <div className='text-left px-8 md:pb-6 py-4 md:py-2 text-sm border-4 md:border-0 border-[#16796F] dark:border-[#F7FAFA] max-h-[40vh] md:max-h-full overflow-y-scroll'>
+                                <p>Olivier is a passionate biology major at Rutgers University with a vision of making a
+                                    meaningful impact on the intersection of healthcare and community development. His
+                                    academic journey has equipped him with a profound understanding of the biological
+                                    sciences, laying the foundation for his aspirations in the field. Fueled by his desire
+                                    to contribute to the improvement of healthcare systems, Olivier is determined to
+                                    carve a path in hospital consulting. His goal is not only to navigate the complexities
+                                    of healthcare administration but also to be a catalyst for positive change within his
+                                    community. Looking ahead, he sees himself as a meteor of change, aiming to bring about
+                                    transformative initiatives that address the unique needs of the community. One of the
+                                    avenues through which he plans to realize this vision is by actively contributing to
+                                    the growth of HealthMun, an organization close to his heart.</p>
+                                <p className='mt-2'>As an advocate for HealthMun, Olivier is committed to leveraging his
+                                    skills in fundraising, financial management, and consulting. By strategically steering the
+                                    organization through these realms, he aspires to nurture HealthMun into a robust and
+                                    enduring entity. His vision is to empower HealthMun to play a pivotal role in shaping the
+                                    future of healthcare, making lasting contributions to community well-being. With support
+                                    from the Secretary-General and Executive Board Members, Olivier hopes to help foster
+                                    invaluable skills for all students as they prepare to navigate the real world. Join him on
+                                    this journey as he works together with the community to build an organization focused
+                                    on a healthier and more connected future for all.</p>
                             </div>
                         </div>
                     </div>

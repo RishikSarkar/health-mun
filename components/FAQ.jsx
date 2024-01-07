@@ -70,7 +70,7 @@ const FAQ = () => {
                             Where?
                         </h2>
                         <h5 className='p-4 font-marcellus'>
-                            The conference will take place at ...
+                            {/* The conference will take place at ... */}
                         </h5>
                     </div>
                 </div>
@@ -86,7 +86,7 @@ const FAQ = () => {
                             When?
                         </h2>
                         <h5 className='p-4 font-marcellus'>
-                            The conference is from ...
+                            {/* The conference is from ... */}
                         </h5>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ const FAQ = () => {
                             Registration?
                         </h2>
                         <h5 className='p-4 font-marcellus'>
-                            You can register at ...
+                            {/* You can register at ... */}
                         </h5>
                     </div>
                 </div>
@@ -137,7 +137,7 @@ const FAQ = () => {
                             Eligibility
                         </h2>
                         <h5 className='p-4 font-marcellus'>
-                            You are eligible if ...
+                            {/* You are eligible if ... */}
                         </h5>
                     </div>
                 </div>
@@ -153,7 +153,7 @@ const FAQ = () => {
                             Fees
                         </h2>
                         <h5 className='p-4 font-marcellus'>
-                            The conference costs ...
+                            {/* The conference costs ... */}
                         </h5>
                     </div>
                 </div>
@@ -169,7 +169,7 @@ const FAQ = () => {
                             Awards
                         </h2>
                         <h5 className='p-4 font-marcellus'>
-                            The conference awards ...
+                            {/* The conference awards ... */}
                         </h5>
                     </div>
                 </div>
