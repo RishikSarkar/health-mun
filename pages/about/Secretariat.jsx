@@ -165,7 +165,7 @@ const Secretariat = () => {
                     </div>
 
                     <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase'>
-                        USG for Global Communications
+                        USG for Economic and Social Affairs
                     </div>
                     <div className="md:col-span-1 my-6 md:mt-0">
                         <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
