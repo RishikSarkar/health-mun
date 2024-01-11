@@ -95,8 +95,8 @@ const Main = () => {
                             <motion.div variants={stagger}>
                                 <div className='relative z-10'>
                                     <motion.div variants={fadeInUp}>
-                                        <h1 className='font-medium text-6xl md:text-9xl font-marcellus py-4 select-none'>
-                                            H<span className='text-5xl md:text-8xl'>ealth</span>MUN
+                                        <h1 className='font-medium text-6xl md:text-8xl font-marcellus py-4 select-none'>
+                                            H<span className='text-5xl md:text-7xl'>ealth</span>MUN
                                         </h1>
 
                                         <div className='max-w-[300px] m-auto select-none'>
