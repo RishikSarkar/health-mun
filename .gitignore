@@ -29,4 +29,4 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-public/assets/main-bg-clip-large.mp4
+# public/assets/main-bg-clip-large.mp4
