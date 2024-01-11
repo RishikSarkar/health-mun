@@ -82,7 +82,7 @@ const Navbar = () => {
                                             <div className='uppercase p-3 ease-in hover:bg-[#F7FAFA]/30 dark:hover:text-[#041312] dark:hover:bg-[#cadede] duration-100'>Secretariat</div>
                                         </Link>
 
-                                        <Link href='/'>
+                                        <Link href='/about/Info'>
                                             <div className='uppercase p-3 ease-in hover:bg-[#F7FAFA]/30 dark:hover:text-[#041312] dark:hover:bg-[#cadede] duration-100'>Info</div>
                                         </Link>
                                     </div>
@@ -90,19 +90,19 @@ const Navbar = () => {
                             )}
                         </li>
 
-                        <Link href='/'>
+                        <Link href='/area/AreaGuide'>
                             <li className='ml-3 uppercase px-6 p-3 ease-in hover:bg-[#F7FAFA]/30 dark:hover:bg-[#F7FAFA]/20 duration-100'>Area Guide</li>
                         </Link>
 
-                        <Link href='/'>
+                        <Link href='/committees/Committees'>
                             <li className='ml-3 uppercase px-6 p-3 ease-in hover:bg-[#F7FAFA]/30 dark:hover:bg-[#F7FAFA]/20 duration-100'>Committees</li>
                         </Link>
 
-                        <Link href='/'>
+                        <Link href='/schedule/Schedule'>
                             <li className='ml-3 uppercase px-6 p-3 ease-in hover:bg-[#F7FAFA]/30 dark:hover:bg-[#F7FAFA]/20 duration-100'>Schedule</li>
                         </Link>
 
-                        <Link href='/'>
+                        <Link href='/register/Register'>
                             <li className='ml-3 uppercase px-6 p-3 ease-in hover:bg-[#F7FAFA]/30 dark:hover:bg-[#F7FAFA]/20 duration-100'>Register</li>
                         </Link>
 
@@ -156,7 +156,7 @@ const Navbar = () => {
                                             <div onClick={handleNav} className='uppercase ml-6 px-6 p-3 my-2 relative ease-in hover:bg-[#F7FAFA]/30 dark:hover:bg-[#F7FAFA]/20 duration-100'>Secretariat</div>
                                         </Link>
 
-                                        <Link href='/'>
+                                        <Link href='/about/Info'>
                                             <div onClick={handleNav} className='uppercase ml-6 px-6 p-3 my-2 relative ease-in hover:bg-[#F7FAFA]/30 dark:hover:bg-[#F7FAFA]/20 duration-100'>Info</div>
                                         </Link>
                                     </div>
@@ -164,22 +164,22 @@ const Navbar = () => {
                             )}
 
                             {!aboutDropDownActive && (
-                                <Link href='/'>
+                                <Link href='/area/AreaGuide'>
                                     <li className='uppercase px-6 p-3 my-2 ease-in hover:bg-[#F7FAFA]/30 dark:hover:bg-[#F7FAFA]/20 duration-100'>Area Guide</li>
                                 </Link>)}
 
                             {!aboutDropDownActive && (
-                                <Link href='/'>
+                                <Link href='/committees/Committees'>
                                     <li className='uppercase px-6 p-3 my-2 ease-in hover:bg-[#F7FAFA]/30 dark:hover:bg-[#F7FAFA]/20 duration-100'>Committees</li>
                                 </Link>)}
 
                             {!aboutDropDownActive && (
-                                <Link href='/'>
+                                <Link href='/schedule/Schedule'>
                                     <li className='uppercase px-6 p-3 my-2 ease-in hover:bg-[#F7FAFA]/30 dark:hover:bg-[#F7FAFA]/20 duration-100'>Schedule</li>
                                 </Link>)}
 
                             {!aboutDropDownActive && (
-                                <Link href='/'>
+                                <Link href='/register/Register'>
                                     <li className='uppercase px-6 p-3 my-2 ease-in hover:bg-[#F7FAFA]/30 dark:hover:bg-[#F7FAFA]/20 duration-100'>Register</li>
                                 </Link>)}
 
