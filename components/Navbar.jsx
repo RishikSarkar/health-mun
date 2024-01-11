@@ -59,7 +59,7 @@ const Navbar = () => {
 
     return (
         <div id='navbar' className={visible ? 'font-montserrat text-[#F7FAFA] fixed w-full bg-[#16796F] dark:bg-[#041312] h-28 z-[100] select-none xs:overflow-x-hidden' :
-            'font-montserrat text-[#F7FAFA] fixed w-full bg-gradient-to-b from-[#16796F]/20 dark:bg-gradient-to-b dark:from-[#041312]/80 h-28 z-[100] select-none xs:overflow-x-hidden'}>
+            'font-montserrat text-[#F7FAFA] fixed w-full bg-gradient-to-b from-white/10 dark:bg-gradient-to-b dark:from-black/50 h-28 z-[100] select-none xs:overflow-x-hidden'}>
             <div className='flex justify-between items-center w-full h-full px-8'>
                 <Link href='/'>
                     <div className='flex items-center'>
