@@ -71,6 +71,7 @@ const FAQ = () => {
                         </h2>
                         <h5 className='p-4 font-marcellus'>
                             {/* The conference will take place at ... */}
+                            TBD
                         </h5>
                     </div>
                 </div>
@@ -87,6 +88,7 @@ const FAQ = () => {
                         </h2>
                         <h5 className='p-4 font-marcellus'>
                             {/* The conference is from ... */}
+                            TBD
                         </h5>
                     </div>
                 </div>
@@ -103,6 +105,7 @@ const FAQ = () => {
                         </h2>
                         <h5 className='p-4 font-marcellus'>
                             {/* You can register at ... */}
+                            TBD
                         </h5>
                     </div>
                 </div>
@@ -138,6 +141,7 @@ const FAQ = () => {
                         </h2>
                         <h5 className='p-4 font-marcellus'>
                             {/* You are eligible if ... */}
+                            TBD
                         </h5>
                     </div>
                 </div>
@@ -154,6 +158,7 @@ const FAQ = () => {
                         </h2>
                         <h5 className='p-4 font-marcellus'>
                             {/* The conference costs ... */}
+                            TBD
                         </h5>
                     </div>
                 </div>
@@ -170,6 +175,7 @@ const FAQ = () => {
                         </h2>
                         <h5 className='p-4 font-marcellus'>
                             {/* The conference awards ... */}
+                            TBD
                         </h5>
                     </div>
                 </div>
