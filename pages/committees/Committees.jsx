@@ -57,7 +57,7 @@ const Committees = () => {
                             </div>
                         </div>
 
-                        <div className="md:col-span-1 md:mt-0 mb-4 md:mb-0">
+                        {/* <div className="md:col-span-1 md:mt-0 mb-4 md:mb-0">
                             <div className='border-[12px] border-[#16796F] dark:border-[#F7FAFA] bg-[#F7FAFA] dark:bg-[#041312] p-8'>
                                 <div className="block dark:hidden">
                                     <Image src={placeholder} height={500} width={500} />
@@ -76,7 +76,7 @@ const Committees = () => {
                                     -
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
 
                         <div className='text-center md:col-span-3 py-8 mb-12 md:mb-0 mt-16 md:mt-0 text-2xl uppercase bg-[#1EA497] dark:bg-[#253130] text-[#F7FAFA]'>
