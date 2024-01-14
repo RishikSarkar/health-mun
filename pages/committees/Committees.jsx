@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useManual } from '../../contexts/ManualContext';
 import Image from 'next/image';
 import placeholder from '../../public/assets/placeholder/placeholder-bg-1.png'
+import WhoWhite from '../../public/assets/committees/who-white.png'
+import WhoGreen from '../../public/assets/committees/who-green.png'
 
 const Committees = () => {
     const { setManual } = useManual();
@@ -23,9 +25,30 @@ const Committees = () => {
                     <div className='text-center md:col-span-3 py-8 mb-12 md:mb-0 text-2xl uppercase bg-[#1EA497] dark:bg-[#253130] text-[#F7FAFA]'>
                         General Assembly
                     </div>
-                    
+
                     <div className="md:col-span-1 md:mt-0 mb-4 md:mb-0">
-                        <div className='border-4 border-[#16796F] dark:border-[#F7FAFA]'>
+                        <div className='border-[12px] border-[#16796F] dark:border-[#F7FAFA] bg-[#F7FAFA] dark:bg-[#041312] p-6'>
+                            <div className="block dark:hidden">
+                                <Image src={WhoGreen} height={500} width={500} />
+                            </div>
+                            <div className="dark:block hidden">
+                                <Image src={WhoWhite} height={500} width={500} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="md:col-span-2 text-[#F7FAFA] dark:text-[#F7FAFA] border-0 border-[#16796F] dark:border-[#F7FAFA] mb-12 md:mb-0">
+                        <div className='py-4 md:py-0 w-full h-full max-h-[40vh] bg-[#F7FAFA] dark:bg-[#1a2726] text-black dark:text-[#F7FAFA] border-4 md:border-0 border-[#16796F] dark:border-[#F7FAFA] md:max-h-full overflow-y-scroll'>
+                            <div className='text-center md:text-left px-8 pb-6 md:pb-2 text-xl md:text-2xl'>
+                                World Health Organization
+                            </div>
+                            <div className='text-left px-8 md:pb-6 py-4 md:py-2 text-sm'>
+                                -
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="md:col-span-1 md:mt-0 mb-4 md:mb-0">
+                        <div className='border-[12px] border-[#16796F] dark:border-[#F7FAFA]'>
                             <Image src={placeholder} width={500} />
                         </div>
                     </div>
@@ -39,13 +62,14 @@ const Committees = () => {
                             </div>
                         </div>
                     </div>
+
 
                     <div className='text-center md:col-span-3 py-8 mb-12 md:mb-0 mt-16 md:mt-0 text-2xl uppercase bg-[#1EA497] dark:bg-[#253130] text-[#F7FAFA]'>
-                        Crisis Committees
+                        Specialized Agencies
                     </div>
-                    
+
                     <div className="md:col-span-1 md:mt-0 mb-4 md:mb-0">
-                        <div className='border-4 border-[#16796F] dark:border-[#F7FAFA]'>
+                        <div className='border-[12px] border-[#16796F] dark:border-[#F7FAFA] bg-white'>
                             <Image src={placeholder} width={500} />
                         </div>
                     </div>
@@ -59,7 +83,6 @@ const Committees = () => {
                             </div>
                         </div>
                     </div>
-
 
                 </div>
             </div>
