@@ -60,6 +60,7 @@ const Main = () => {
                                             <div className='hidden md:block opacity-30'>
                                                 <video autoPlay loop muted style={{ width: '100%', height: '100%', objectFit: 'cover' }}>
                                                     <source src="/assets/videos/main-bg-video.mp4" type="video/mp4" />
+                                                    {/* <source src="https://github.com/RishikSarkar/health-mun/blob/main/public/assets/videos/main-bg-video.mp4" type="video/mp4" /> */}
                                                 </video>
                                             </div>
                                         </div>
