@@ -30,4 +30,4 @@ yarn-error.log*
 .env.production.local
 
 public/assets/videos/main-bg-xl.mp4
-public/assets/videos/main-bg.mp4
+public/assets/videos/main-bg-long.mp4

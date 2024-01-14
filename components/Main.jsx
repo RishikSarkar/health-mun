@@ -59,7 +59,7 @@ const Main = () => {
                                         <div className='w-full h-[50%] absolute left-0 top-[25%] z-0 bg-[#16796F]/90 dark:bg-[#1a2726] md:bg-black md:dark:bg-black'>
                                             <div className='hidden md:block opacity-30'>
                                                 <video autoPlay loop muted style={{ width: '100%', height: '100%', objectFit: 'cover' }}>
-                                                    <source src="/assets/videos/main-bg-video.mp4" type="video/mp4" />
+                                                    <source src="/assets/videos/main-bg.mp4" type="video/mp4" />
                                                     {/* <source src="https://github.com/RishikSarkar/health-mun/blob/main/public/assets/videos/main-bg-video.mp4" type="video/mp4" /> */}
                                                 </video>
                                             </div>
