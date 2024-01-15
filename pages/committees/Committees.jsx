@@ -37,7 +37,7 @@ const Committees = () => {
                         </div>
 
                         <div className="md:col-span-1 md:mt-0 mb-4 md:mb-0">
-                            <div className='border-[12px] border-[#16796F] dark:border-[#F7FAFA] bg-[#F7FAFA] dark:bg-[#041312] p-8'>
+                            <div className='border-[10px] border-[#16796F] dark:border-[#F7FAFA] bg-[#F7FAFA] dark:bg-[#041312] p-4'>
                                 <div className="block dark:hidden">
                                     <Image src={WhoGreen} height={500} width={500} />
                                 </div>
@@ -46,19 +46,19 @@ const Committees = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="md:col-span-2 text-[#F7FAFA] dark:text-[#F7FAFA] border-0 border-[#16796F] dark:border-[#F7FAFA] mb-12 md:mb-0">
+                        <div className="md:col-span-2 text-[#F7FAFA] dark:text-[#F7FAFA] mb-12 md:mb-0">
                             <div className='py-4 md:py-0 w-full h-full max-h-[40vh] bg-[#F7FAFA] dark:bg-[#1a2726] text-black dark:text-[#F7FAFA] border-4 md:border-0 border-[#16796F] dark:border-[#F7FAFA] md:max-h-full overflow-y-scroll'>
-                                <div className='text-center md:text-left px-8 pb-6 md:pb-2 text-xl md:text-2xl'>
+                                <div className='text-center md:text-left px-8 pb-6 md:pb-2 text-xl md:text-2xl text-[#16796F] dark:text-[#F7FAFA]/60'>
                                     World Health Organization
                                 </div>
                                 <div className='text-left px-8 md:pb-6 py-4 md:py-2 text-sm'>
-                                    -
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </div>
                             </div>
                         </div>
 
                         {/* <div className="md:col-span-1 md:mt-0 mb-4 md:mb-0">
-                            <div className='border-[12px] border-[#16796F] dark:border-[#F7FAFA] bg-[#F7FAFA] dark:bg-[#041312] p-8'>
+                            <div className='border-[12px] border-[#16796F] dark:border-[#F7FAFA] bg-[#F7FAFA] dark:bg-[#041312] p-4'>
                                 <div className="block dark:hidden">
                                     <Image src={placeholder} height={500} width={500} />
                                 </div>
@@ -84,7 +84,7 @@ const Committees = () => {
                         </div>
 
                         <div className="md:col-span-1 md:mt-0 mb-4 md:mb-0">
-                            <div className='border-[12px] border-[#16796F] dark:border-[#F7FAFA] bg-[#F7FAFA] dark:bg-[#041312] p-8'>
+                            <div className='border-[10px] border-[#16796F] dark:border-[#F7FAFA] bg-[#F7FAFA] dark:bg-[#041312] p-4'>
                                 <div className="block dark:hidden">
                                     <Image src={HouseGreen} height={500} width={500} />
                                 </div>
@@ -95,11 +95,11 @@ const Committees = () => {
                         </div>
                         <div className="md:col-span-2 text-[#F7FAFA] dark:text-[#F7FAFA] border-0 border-[#16796F] dark:border-[#F7FAFA] mb-12 md:mb-0">
                             <div className='py-4 md:py-0 w-full h-full max-h-[40vh] bg-[#F7FAFA] dark:bg-[#1a2726] text-black dark:text-[#F7FAFA] border-4 md:border-0 border-[#16796F] dark:border-[#F7FAFA] md:max-h-full overflow-y-scroll'>
-                                <div className='text-center md:text-left px-8 pb-6 md:pb-2 text-xl md:text-2xl'>
+                                <div className='text-center md:text-left px-8 pb-6 md:pb-2 text-xl md:text-2xl text-[#16796F] dark:text-[#F7FAFA]/60'>
                                     House, M.D.
                                 </div>
                                 <div className='text-left px-8 md:pb-6 py-4 md:py-2 text-sm'>
-                                    -
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </div>
                             </div>
                         </div>

@@ -60,7 +60,7 @@ const Register = () => {
 
                         <div className='flex flex-col xs:items-center'>
                             <label className='uppercase text-sm py-2 mt-4 select-none'>Total Delegates *</label>
-                            <input className='text-black text-sm dark:text-[#F7FAFA] bg-[#F7FAFA] dark:bg-black/40 border-2 border-[#16796F] dark:border-white py-2 px-2 flex' name='Total_Delegates' type="number" min="1" step="1" style={{ outline: 'none' }} required />
+                            <input className='text-black text-sm dark:text-[#F7FAFA] bg-[#F7FAFA] dark:bg-black/40 border-2 border-[#16796F] dark:border-white py-2 px-2 flex' name='Total_Delegates' type="number" min="1" max="15" step="1" style={{ outline: 'none' }} required />
                         </div>
 
                         <div className='flex flex-col xs:items-center'>
