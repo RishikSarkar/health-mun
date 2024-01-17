@@ -8,6 +8,7 @@
   "dependencies": {
     "framer-motion": "^10.16.4",
     "next": "latest",
+    "next-seo": "^6.4.0",
     "next-themes": "^0.2.1",
     "pdfjs-dist": "^4.0.379",
     "react": "18.2.0",
