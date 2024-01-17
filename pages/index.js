@@ -12,6 +12,11 @@ export default function Home() {
     <div className>
       <Head>
         <title>HealthMUN</title>
+        <meta
+          name="description"
+          content="HealthMUN, the world's first-ever Model United Nations experience organized for pre-health students. See you in 2024!"
+        />
+        <link rel="icon" href="/favicon/favicon.ico" />
       </Head>
 
       <ParallaxProvider>
