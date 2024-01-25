@@ -34,7 +34,8 @@ const Register = () => {
 
                         <div className='text-xl font-marcellus p-4 mt-4 mb-12 uppercase flex select-none justify-center items-center'>
                             <div className='font-montserrat px-12 py-4 text-lg uppercase text-center bg-[#16796F] text-[#F7FAFA] dark:bg-[#F7FAFA] dark:text-black hover:bg-[#16796F]/60 dark:hover:bg-[#F7FAFA]/50 cursor-pointer ease-in duration-100'>
-                                <Link href='/register/Portal'>
+                                {/* <Link href='/register/Portal'> */}
+                                <Link href='/'>
                                     {/* Register for HealthMUN */}
                                     Registration Closed
                                 </Link>
