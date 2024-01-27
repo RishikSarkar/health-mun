@@ -12,8 +12,8 @@ const Info = () => {
     const [pageNumber, setPageNumber] = useState(1);
 
     const Newsletter = '/assets/documents/placeholder-pdf.pdf'
-    const Constitution = '/assets/documents/placeholder-pdf.pdf'
-    const GISlides = '/assets/documents/placeholder-pdf.pdf'
+    const Constitution = '/assets/documents/constitution.pdf'
+    const GISlides = '/assets/documents/gi-slides.pdf'
 
     useEffect(() => {
         setManual(true);
@@ -69,7 +69,7 @@ const Info = () => {
                         <div className='md:col-span-1'>
                             <div className='flex justify-center pb-12'>
                                 <div>
-                                    <Document className={"border-8 border-[#16796F] dark:border-[#F7FAFA]/60 cursor-pointer"} onClick={handleConstitutionClick} file='/assets/documents/placeholder-pdf.pdf' onLoadSuccess={onDocumentLoadSuccess}>
+                                    <Document className={"border-8 border-[#16796F] dark:border-[#F7FAFA]/60 cursor-pointer"} onClick={handleConstitutionClick} file='/assets/documents/constitution.pdf' onLoadSuccess={onDocumentLoadSuccess}>
                                         <Page pageNumber={pageNumber} renderTextLayer={false} width={350} />
                                     </Document>
                                     <div className='text-center py-6 text-sm md:text-lg'>
@@ -82,7 +82,7 @@ const Info = () => {
                         <div className='md:col-span-1'>
                             <div className='flex justify-center pb-12'>
                                 <div>
-                                    <Document className={"border-8 border-[#16796F] dark:border-[#F7FAFA]/60 cursor-pointer"} onClick={handleGISlidesClick} file='/assets/documents/placeholder-pdf.pdf' onLoadSuccess={onDocumentLoadSuccess}>
+                                    <Document className={"border-8 border-[#16796F] dark:border-[#F7FAFA]/60 cursor-pointer"} onClick={handleGISlidesClick} file='/assets/documents/gi-slides.pdf' onLoadSuccess={onDocumentLoadSuccess}>
                                         <Page pageNumber={pageNumber} renderTextLayer={false} width={350} />
                                     </Document>
                                     <div className='text-center py-6 text-sm md:text-lg'>
