@@ -169,7 +169,7 @@ const Welcome = () => {
                     <div className='text-sm md:text-base pt-6'>
                         Cheers,
                     </div>
-                    <div className='flex justify-end -mx-10 -my-10'>
+                    <div className='flex justify-end -mx-10'>
                         <div className="block dark:hidden">
                             <Image src={YasminSigBlack} width='300' height='300' />
                         </div>
