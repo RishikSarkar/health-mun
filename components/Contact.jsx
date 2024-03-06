@@ -1,4 +1,7 @@
 import React from 'react'
+import Link from 'next/link';
+
+import { SiInstagram, SiLinktree, SiGroupme } from "react-icons/si";
 
 const Contact = () => {
     const handleFormSubmission = (event) => {
@@ -16,8 +19,30 @@ const Contact = () => {
     }
 
     return (
-        <div className='font-marcellus w-full h-screen flex flex-col justify-center items-center text-center bg-[#16796F] dark:bg-[#041312] text-[#F7FAFA] selection:text-[#F7FAFA] dark:selection:text-[#041312] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA] overflow-x-hidden'>
-            <div id='contact' className='pt-8 mt-24 text-3xl uppercase flex select-none'>
+        <div id='contact' className='font-marcellus w-full h-screen flex flex-col justify-center items-center text-center bg-[#16796F] dark:bg-[#041312] text-[#F7FAFA] selection:text-[#F7FAFA] dark:selection:text-[#041312] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA] overflow-x-hidden overflow-y-hidden'>
+            <div className='pt-12 mt-36 select-none grid grid-cols-3 gap-8'>
+
+                <a target="_blank" href='https://www.instagram.com/healthmun/'>
+                    <div className='col-span-1 flex bg-[#16796F] text-[#F7FAFA] dark:bg-[#041312] dark:text-[#F7FAFA] hover:bg-[#F7FAFA]/20 dark:hover:bg-[#F7FAFA]/10 rounded-full p-3 border-2 border-[#F7FAFA] ease-in duration-100 cursor-pointer'>
+                        <SiInstagram size={20} />
+                    </div>
+                </a>
+
+                <a target="_blank" href='https://groupme.com/join_group/98184894/W24PDIUY'>
+                    <div className='col-span-1 flex bg-[#16796F] text-[#F7FAFA] dark:bg-[#041312] dark:text-[#F7FAFA] hover:bg-[#F7FAFA]/20 dark:hover:bg-[#F7FAFA]/10 rounded-full p-3 border-2 border-[#F7FAFA] ease-in duration-100 cursor-pointer'>
+                        <SiGroupme size={20} />
+                    </div>
+                </a>
+
+                <a target="_blank" href='https://linktr.ee/healthmun'>
+                    <div className='col-span-1 flex bg-[#16796F] text-[#F7FAFA] dark:bg-[#041312] dark:text-[#F7FAFA] hover:bg-[#F7FAFA]/20 dark:hover:bg-[#F7FAFA]/10 rounded-full p-3 border-2 border-[#F7FAFA] ease-in duration-100 cursor-pointer'>
+                        <SiLinktree size={20} />
+                    </div>
+                </a>
+
+            </div>
+
+            <div className='pt-12 text-3xl uppercase flex select-none'>
                 Contact Us
             </div>
             <div className='w-[50%] h-auto py-4 md:p-4 mb-16 pb-8 font-montserrat'>
