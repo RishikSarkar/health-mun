@@ -42,7 +42,7 @@ const Contact = () => {
 
             </div>
 
-            <div id='contact' className='pt-12 text-3xl uppercase flex select-none'>
+            <div id='contact' className='pt-8 text-3xl uppercase flex select-none'>
                 Contact Us
             </div>
             <div className='w-[50%] h-auto py-4 md:p-4 mb-8 pb-8 font-montserrat'>
