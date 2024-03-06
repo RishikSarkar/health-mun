@@ -8,7 +8,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 function MyApp({ Component, pageProps }) {
     return (
         <>
-            <ThemeProvider attribute='class'>
+            <ThemeProvider enableSystem={true} attribute='class'>
                 <ParallaxProvider>
                     <ManualProvider>
                         <Navbar />
