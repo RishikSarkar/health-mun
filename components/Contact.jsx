@@ -19,8 +19,8 @@ const Contact = () => {
     }
 
     return (
-        <div id='contact' className='font-marcellus w-full h-screen flex flex-col justify-center items-center text-center bg-[#16796F] dark:bg-[#041312] text-[#F7FAFA] selection:text-[#F7FAFA] dark:selection:text-[#041312] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA] overflow-x-hidden overflow-y-hidden'>
-            <div className='pt-12 mt-36 select-none grid grid-cols-3 gap-8'>
+        <div className='font-marcellus w-full h-screen flex flex-col justify-center items-center text-center bg-[#16796F] dark:bg-[#041312] text-[#F7FAFA] selection:text-[#F7FAFA] dark:selection:text-[#041312] selection:bg-[#09302C] dark:selection:bg-[#F7FAFA] overflow-x-hidden'>
+            <div className='pt-12 mt-20 select-none grid grid-cols-3 gap-8'>
 
                 <a target="_blank" href='https://www.instagram.com/healthmun/'>
                     <div className='col-span-1 flex bg-[#16796F] text-[#F7FAFA] dark:bg-[#041312] dark:text-[#F7FAFA] hover:bg-[#F7FAFA]/20 dark:hover:bg-[#F7FAFA]/10 rounded-full p-3 border-2 border-[#F7FAFA] ease-in duration-100 cursor-pointer'>
@@ -42,10 +42,10 @@ const Contact = () => {
 
             </div>
 
-            <div className='pt-12 text-3xl uppercase flex select-none'>
+            <div id='contact' className='pt-12 text-3xl uppercase flex select-none'>
                 Contact Us
             </div>
-            <div className='w-[50%] h-auto py-4 md:p-4 mb-16 pb-8 font-montserrat'>
+            <div className='w-[50%] h-auto py-4 md:p-4 mb-8 pb-8 font-montserrat'>
 
                 <form action='https://getform.io/f/f3e777d7-a5fd-42fd-8561-682d83f8c51d' method='POST' encType='multipart/form-data' onSubmit={handleFormSubmission}>
                     <div className='grid grid-cols-2 gap-4 py-2'>
