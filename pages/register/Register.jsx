@@ -24,7 +24,7 @@ const Register = () => {
                 <div className='w-full h-full font-marcellus px-20 md:px-64'>
                     <div className='md:px-40 w-full pt-16 md:py-20'>
 
-                        <div className='text-center px-2 text-lg'>
+                        <div className='text-center px-2 text-sm md:text-lg'>
                             <p className='py-4'>HealthMUN will take place at [TBD] on [TBD]. The conference is open to [TBD]. Delegates may
                                 attend with a delegation or independently.</p>
                             <p className='py-4'>The HealthMUN Registration Portal is currently undergoing maintenance. We encourage delegations
@@ -33,7 +33,7 @@ const Register = () => {
                         </div>
 
                         <div className='text-xl font-marcellus p-4 mt-4 mb-12 uppercase flex select-none justify-center items-center'>
-                            <div className='font-montserrat px-12 py-4 text-lg uppercase text-center bg-[#16796F] text-[#F7FAFA] dark:bg-[#F7FAFA] dark:text-black hover:bg-[#16796F]/60 dark:hover:bg-[#F7FAFA]/50 cursor-pointer ease-in duration-100'>
+                            <div className='font-montserrat px-4 md:px-12 py-4 text-sm md:text-lg uppercase text-center bg-[#16796F] text-[#F7FAFA] dark:bg-[#F7FAFA] dark:text-black hover:bg-[#16796F]/60 dark:hover:bg-[#F7FAFA]/50 cursor-pointer ease-in duration-100'>
                                 {/* <Link href='/register/Portal'> */}
                                 <Link href='/register/Register'>
                                     {/* Register for HealthMUN */}
@@ -42,7 +42,7 @@ const Register = () => {
                             </div>
                         </div>
 
-                        <hr className="border-2 border-[#16796F]/20 dark:border-[#F7FAFA]/20 my-4 md:my-8 md:my-4" />
+                        <hr className="hidden md:block border-2 border-[#16796F]/20 dark:border-[#F7FAFA]/20 my-4 md:my-8 md:my-4" />
 
                     </div>
                 </div>

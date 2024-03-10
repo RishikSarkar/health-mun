@@ -26,116 +26,121 @@ const Welcome = () => {
                         W<span className='text-2xl md:text-4xl'>elcome</span>
                     </div>
                 </div>
-                {/* <div className='w-full h-full py-16 md:py-32 px-16 md:px-36 font-marcellus grid grid-cols-2 divide-x-2 dark:divide-white/30 divide-black/20 text-justify'>
-                <div className='col-span-1 pr-16'>
-                    <div className='text-lg md:text-2xl font-bold'>
-                        A Letter from the Secretary-General:
-                    </div>
-                    <div className='text-sm md:text-base pt-8'>
-                        Dear Delegates, Faculty Advisors, & Staff,
-                    </div>
-                    <div className='text-sm md:text-base pt-6'>
-                        Model United Nations has traditionally been an extracurricular platform that highlights the essence of
-                        diplomacy, challenges political boundaries, and mends global differences. However, after actively engaging
-                        in Model UN for over a decade, it has come to my attention that much of the educational culture surrounding
-                        it has disproportionately underscored liberal and political topics. There has been a clear imbalance in
-                        academic focus. Crucial issues pertinent to our ever-changing world, such as health, technology, and the
-                        sciences, have unfortunately been ignored or rarely discussed. We must remember that STEM is not just a
-                        field of academic pursuit but also a cornerstone for diplomacy and international affairs.
-                    </div>
-                    <div className='text-sm md:text-base pt-6'>
-                        From the inception of HealthMUN, my primary goal has been to emphasize the intricate relationship between
-                        global health and politics within the Model UN community. I firmly believe that irrespective of one’s
-                        academic trajectory, individual interests, or prior experiences, Model UN fosters invaluable skills for
-                        all students as they prepare to navigate the real world. At HealthMUN, you will be addressing the most
-                        difficult challenges in today’s healthcare.
-                    </div>
-                    <div className='text-sm md:text-base pt-6'>
-                        With great anticipation and pride, the Secretariat and I usher you into a transformative era for the Model
-                        UN community worldwide. Join us in making this not just an event but an initiative that redefines our collective
-                        approach to global challenges.
-                    </div>
-                    <div className='text-sm md:text-base pt-6'>
-                        Welcome to HealthMUN!
-                    </div>
-                    <div className='text-sm md:text-base pt-6'>
-                        Cheers,
-                    </div>
-                    <div className='flex justify-start -mx-10 -my-10'>
-                        <div className="block dark:hidden">
-                            <Image src={YasminSigBlack} width='300' height='300' />
+                <div className='w-full h-full py-16 md:py-32 px-16 md:px-36 font-marcellus md:grid md:grid-cols-2 md:divide-x-2 md:dark:divide-white/30 md:divide-black/20 md:text-justify'>
+                    <div className='md:col-span-1 md:pr-16'>
+                        <div className='text-lg md:text-2xl font-bold'>
+                            A Letter from the Secretary-General:
                         </div>
-                        <div className="dark:block hidden">
-                            <Image src={YasminSigWhite} width='300' height='300' />
+                        <div className='text-sm md:text-base pt-8'>
+                            Dear Delegates, Faculty Advisors, & Staff,
+                        </div>
+                        <div className='text-sm md:text-base pt-6'>
+                            Model United Nations has traditionally been an extracurricular platform that highlights the essence of
+                            diplomacy, challenges political boundaries, and mends global differences. However, after actively engaging
+                            in Model UN for over a decade, it has come to my attention that much of the educational culture surrounding
+                            it has disproportionately underscored liberal and political topics. There has been a clear imbalance in
+                            academic focus. Crucial issues pertinent to our ever-changing world, such as health, technology, and the
+                            sciences, have unfortunately been ignored or rarely discussed. We must remember that STEM is not just a
+                            field of academic pursuit but also a cornerstone for diplomacy and international affairs.
+                        </div>
+                        <div className='text-sm md:text-base pt-6'>
+                            From the inception of HealthMUN, my primary goal has been to emphasize the intricate relationship between
+                            global health and politics within the Model UN community. I firmly believe that irrespective of one’s
+                            academic trajectory, individual interests, or prior experiences, Model UN fosters invaluable skills for
+                            all students as they prepare to navigate the real world. At HealthMUN, you will be addressing the most
+                            difficult challenges in today’s healthcare.
+                        </div>
+                        <div className='text-sm md:text-base pt-6'>
+                            With great anticipation and pride, the Secretariat and I usher you into a transformative era for the Model
+                            UN community worldwide. Join us in making this not just an event but an initiative that redefines our collective
+                            approach to global challenges.
+                        </div>
+                        <div className='text-sm md:text-base pt-6'>
+                            Welcome to HealthMUN!
+                        </div>
+                        <div className='text-sm md:text-base pt-6'>
+                            Cheers,
+                        </div>
+                        <div className='flex md:justify-start -mx-10'>
+                            <div className="block dark:hidden">
+                                <Image src={YasminSigBlack} width='300' height='300' />
+                            </div>
+                            <div className="dark:block hidden">
+                                <Image src={YasminSigWhite} width='300' height='300' />
+                            </div>
+                        </div>
+                        <div className='text-sm md:text-base text-left'>
+                            Yasmin C. Khan
+                        </div>
+                        <div className='text-sm md:text-base pt-6 text-left'>
+                            Secretary-General
+                        </div>
+                        <div className='text-sm md:text-base pt-6 text-left'>
+                            Health Model United Nations 2024
+                        </div>
+                        <div className='text-sm md:text-base pt-6 text-left'>
+                            secgen.healthmun@gmail.com
                         </div>
                     </div>
-                    <div className='text-sm md:text-base text-left'>
-                        Yasmin C. Khan
-                    </div>
-                    <div className='text-sm md:text-base pt-6 text-left'>
-                        Secretary-General
-                    </div>
-                    <div className='text-sm md:text-base pt-6 text-left'>
-                        Health Model United Nations 2024
-                    </div>
-                    <div className='text-sm md:text-base pt-6 text-left'>
-                        secgen.healthmun@gmail.com
+
+                    <hr className="block md:hidden border-2 border-[#16796F]/20 dark:border-[#F7FAFA]/20 my-16" />
+
+                    <div className='md:col-span-1 md:pl-16'>
+                        <div className='text-lg md:text-2xl font-bold'>
+                            A Letter from the Deputy-General:
+                        </div>
+                        <div className='text-sm md:text-base pt-8'>
+                            Greetings,
+                        </div>
+                        <div className='text-sm md:text-base pt-6'>
+                            I am delighted to welcome you all to HealthMUN, where we embark on a journey of leadership and global
+                            engagement. Here, you will learn the fundamentals of Model United Nations and have the extraordinary
+                            opportunity to apply them in real-world scenarios. Through an array of workshops, meetings, and conferences,
+                            we strive to provide an abundance of avenues for personal growth and development.
+                        </div>
+                        <div className='text-sm md:text-base pt-6'>
+                            At the heart of HealthMUN lies a commitment to bridging global health disparities with the art of
+                            debate. Part of our mission is to establish a platform where every voice is not just acknowledged
+                            but amplified, particularly when it comes to addressing critical global health issues. We firmly
+                            believe that debate should never be daunting; rather, it should catalyze positive change. In a
+                            world where global health conflicts persist, your voice becomes a powerful tool for advocacy and
+                            development. Your opinions and your knowledge—are the driving forces behind our collective mission.
+                        </div>
+                        <div className='text-sm md:text-base pt-6'>
+                            As you embark on this transformative journey with us, I extend my heartfelt wishes for your success
+                            and a wholehearted welcome to the vibrant community of HealthMUN. Let us amplify our voices together
+                            and make a significant impact on health issues around the world.
+                        </div>
+                        <div className='text-sm md:text-base pt-6'>
+                            Welcome to HealthMUN!
+                        </div>
+                        <div className='text-sm md:text-base pt-6 md:pt-24'>
+                            Sincerely,
+                        </div>
+                        <div className='flex justify-start -mx-10 my-6'>
+                            <div className="block dark:hidden">
+                                <Image src={AyahSigBlack} width='300' height='300' />
+                            </div>
+                            <div className="dark:block hidden">
+                                <Image src={AyahSigWhite} width='300' height='300' />
+                            </div>
+                        </div>
+                        <div className='text-sm md:text-base text-left'>
+                            Ayah Elzibak
+                        </div>
+                        <div className='text-sm md:text-base pt-6 text-left'>
+                            Deputy-General
+                        </div>
+                        <div className='text-sm md:text-base pt-6 text-left'>
+                            Health Model United Nations 2024
+                        </div>
+                        <div className='text-sm md:text-base pt-6 text-left'>
+                            depgen.healthmun@gmail.com
+                        </div>
                     </div>
                 </div>
 
-                <div className='col-span-1 pl-16'>
-                    <div className='text-lg md:text-2xl font-bold'>
-                        A Letter from the Deputy Secretary-General:
-                    </div>
-                    <div className='text-sm md:text-base pt-8'>
-                        Dear Delegates, Faculty Advisors, & Staff,
-                    </div>
-                    <div className='text-sm md:text-base pt-6'>
-                        Model United Nations has traditionally been an extracurricular platform that highlights the essence of
-                        diplomacy, challenges political boundaries, and mends global differences. However, after actively engaging
-                        in Model UN for over a decade, it has come to my attention that much of the educational culture surrounding
-                        it has disproportionately underscored liberal and political topics. There has been a clear imbalance in
-                        academic focus. Crucial issues pertinent to our ever-changing world, such as health, technology, and the
-                        sciences, have unfortunately been ignored or rarely discussed. We must remember that STEM is not just a
-                        field of academic pursuit but also a cornerstone for diplomacy and international affairs.
-                    </div>
-                    <div className='text-sm md:text-base pt-6'>
-                        From the inception of HealthMUN, my primary goal has been to emphasize the intricate relationship between
-                        global health and politics within the Model UN community. I firmly believe that irrespective of one’s
-                        academic trajectory, individual interests, or prior experiences, Model UN fosters invaluable skills for
-                        all students as they prepare to navigate the real world. At HealthMUN, you will be addressing the most
-                        difficult challenges in today’s healthcare.
-                    </div>
-                    <div className='text-sm md:text-base pt-6'>
-                        Welcome to HealthMUN!
-                    </div>
-                    <div className='text-sm md:text-base pt-6'>
-                        Cheers,
-                    </div>
-                    <div className='flex justify-start -mx-4 mb-4'>
-                        <div className="block dark:hidden">
-                            <Image src={AyahSigBlack} width='300' height='300' />
-                        </div>
-                        <div className="dark:block hidden">
-                            <Image src={AyahSigWhite} width='300' height='300' />
-                        </div>
-                    </div>
-                    <div className='text-sm md:text-base text-left'>
-                        Ayah Elzibak
-                    </div>
-                    <div className='text-sm md:text-base pt-6 text-left'>
-                        Deputy Secretary-General
-                    </div>
-                    <div className='text-sm md:text-base pt-6 text-left'>
-                        Health Model United Nations 2024
-                    </div>
-                    <div className='text-sm md:text-base pt-6 text-left'>
-                        depgen.healthmun@gmail.com
-                    </div>
-                </div>
-            </div> */}
-
-                <div className='w-full h-full py-16 md:py-32 px-16 md:px-48 font-marcellus'>
+                {/* <div className='w-full h-full py-16 md:py-32 px-16 md:px-48 font-marcellus'>
                     <div className='text-lg md:text-2xl font-bold'>
                         A Letter from the Secretary-General:
                     </div>
@@ -189,7 +194,7 @@ const Welcome = () => {
                     <div className='text-sm md:text-base pt-6 text-right'>
                         secretarygeneral@healthmun.org
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )
