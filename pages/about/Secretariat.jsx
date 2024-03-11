@@ -34,7 +34,7 @@ const Secretariat = () => {
 
                         <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase flex flex-col'>
                             <span>Secretary-General</span>
-                            <span className='pt-1 text-lg text-black/40 dark:text-[#F7FAFA]/40'>President</span>
+                            <span className='pt-1 -mb-2 text-lg text-black/40 dark:text-[#F7FAFA]/40'>President</span>
                         </div>
                         <div className="md:col-span-1 my-6 md:mt-0">
                             <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
@@ -82,7 +82,7 @@ const Secretariat = () => {
 
                         <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase flex flex-col'>
                             <span>Deputy Secretary-General</span>
-                            <span className='pt-1 text-lg text-black/40 dark:text-[#F7FAFA]/40'>Vice-President</span>
+                            <span className='pt-1 -mb-2 text-lg text-black/40 dark:text-[#F7FAFA]/40'>Vice-President</span>
                         </div>
                         <div className="md:col-span-1 my-6 md:mt-0">
                             <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
@@ -129,7 +129,7 @@ const Secretariat = () => {
 
                         <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase flex flex-col'>
                             <span>USG for Global Communications</span>
-                            <span className='pt-1 text-lg text-black/40 dark:text-[#F7FAFA]/40'>Communications Director</span>
+                            <span className='pt-1 -mb-2 text-lg text-black/40 dark:text-[#F7FAFA]/40'>Communications Director</span>
                         </div>
                         <div className="md:col-span-1 my-6 md:mt-0">
                             <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
@@ -176,7 +176,7 @@ const Secretariat = () => {
 
                         <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase flex flex-col'>
                             <span>USG for Economic and Social Affairs</span>
-                            <span className='pt-1 text-lg text-black/40 dark:text-[#F7FAFA]/40'>Treasurer</span>
+                            <span className='pt-1 -mb-2 text-lg text-black/40 dark:text-[#F7FAFA]/40'>Treasurer</span>
                         </div>
                         <div className="md:col-span-1 my-6 md:mt-0">
                             <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
@@ -225,7 +225,7 @@ const Secretariat = () => {
 
                         <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase flex flex-col'>
                             <span>USG for Committee Affairs and Conference Management</span>
-                            <span className='pt-1 text-lg text-black/40 dark:text-[#F7FAFA]/40'>Logistics Director</span>
+                            <span className='pt-1 -mb-2 text-lg text-black/40 dark:text-[#F7FAFA]/40'>Logistics Director</span>
                         </div>
                         <div className="md:col-span-1 my-6 md:mt-0">
                             <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
@@ -273,7 +273,7 @@ const Secretariat = () => {
 
                         <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase flex flex-col'>
                             <span>President of the General Assembly</span>
-                            <span className='pt-1 text-lg text-black/40 dark:text-[#F7FAFA]/40'>General Assembly Director</span>
+                            <span className='pt-1 -mb-2 text-lg text-black/40 dark:text-[#F7FAFA]/40'>Programme Board Director</span>
                         </div>
                         <div className="md:col-span-1 my-6 md:mt-0">
                             <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
