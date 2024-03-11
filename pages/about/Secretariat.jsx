@@ -7,7 +7,7 @@ import placeholder_y from '../../public/assets/secretariat/placeholder_y.png'
 import placeholder_a from '../../public/assets/secretariat/placeholder_a.jpg'
 import rishik from '../../public/assets/secretariat/rishik.jpg'
 import olivier from '../../public/assets/secretariat/olivier.jpg'
-import justin from '../../public/assets/secretariat/justin.jpg'
+import justin from '../../public/assets/secretariat/justin.JPG'
 import adnan from '../../public/assets/secretariat/adnan.jpg'
 
 
