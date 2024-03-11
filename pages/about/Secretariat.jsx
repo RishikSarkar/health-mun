@@ -7,6 +7,8 @@ import placeholder_y from '../../public/assets/secretariat/placeholder_y.png'
 import placeholder_a from '../../public/assets/secretariat/placeholder_a.jpg'
 import rishik from '../../public/assets/secretariat/rishik.jpg'
 import olivier from '../../public/assets/secretariat/olivier.jpg'
+import justin from '../../public/assets/secretariat/justin.jpg'
+import adnan from '../../public/assets/secretariat/adnan.jpg'
 
 
 const Secretariat = () => {
@@ -209,6 +211,102 @@ const Secretariat = () => {
                                         invaluable skills for all students as they prepare to navigate the real world. Join him on
                                         this journey as he works together with the community to build an organization focused
                                         on a healthier and more connected future for all.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="md:col-span-3">
+                            <hr className="border-2 border-[#16796F]/20 dark:border-[#F7FAFA]/20 m-2 my-12 md:my-4" />
+                        </div>
+
+                        <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase'>
+                            USG for Committee Affairs and Conference Management
+                        </div>
+                        <div className="md:col-span-1 my-6 md:mt-0">
+                            <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
+                                <Image src={justin} width={500} />
+                            </div>
+                            <div className="hidden md:flex justify-center">
+                                {/* Change email */}
+                                <a href="mailto:healthmun@gmail.com" className='font-montserrat p-4 text-sm mt-8 w-[15vw] uppercase text-center bg-[#16796F] text-[#F7FAFA] dark:bg-[#F7FAFA] dark:text-black hover:bg-[#16796F]/60 dark:hover:bg-[#F7FAFA]/50 border-0 border-[#16796F] dark:border-[#F7FAFA] cursor-pointer ease-in duration-100'>
+                                    Contact Justin
+                                </a>
+                            </div>
+                        </div>
+                        <div className="md:col-span-2 text-[#F7FAFA] dark:text-[#F7FAFA] border-0 border-[#16796F] dark:border-[#F7FAFA] pb-12 md:pb-0">
+                            <div className='w-full h-full bg-[#F7FAFA] dark:bg-[#1a2726] text-black dark:text-[#F7FAFA]'>
+                                <div className='text-center md:text-left px-8 pb-6 md:pb-2 text-xl md:text-2xl'>
+                                    Justin Yazigi
+                                </div>
+                                <div className='text-left px-8 md:pb-6 py-4 md:py-2 text-sm border-4 md:border-0 border-[#16796F] dark:border-[#F7FAFA] max-h-[40vh] md:max-h-full overflow-y-scroll'>
+                                    <p>Surrounded by family in the medical field, Justin has always had an interest in the world
+                                        of medicine. Having been involved in a multitude of medical settings, from hospitals
+                                        and nursing homes to rehabilitation centers, Justin has developed a deep and diverse
+                                        understanding of healthcare dynamics in the United States. Additionally, his background
+                                        as a first-generation American born to Syrian immigrants provides him with a unique
+                                        perspective on healthcare abroad, which he hopes to apply in the context of HealthMUN.
+                                        As a senior in Cell Biology and Neuroscience at Rutgers University-New Brunswick,
+                                        Justin has delved deeper into his interests in neuroscience and medicine as a
+                                        Research Assistant at the Pierce Lab of Neuroscience Addiction, where for nearly
+                                        2 years, his team has aimed to uncover the neurobiological effects of addictive substances
+                                        and explore potential therapies for drug addiction. Furthermore, Justin takes pride
+                                        in his work as a Teaching Instructor for Physics, where he enjoys leading weekly recitations
+                                        and finds satisfaction in assisting students in need. Outside of work, Justin enjoys
+                                        playing and watching basketball, hanging out with friends, and trading stocks.</p>
+                                    <p className='mt-2'>Justin believes the root of all success lies in planning and organization,
+                                        just as Benjamin Franklin proclaimed in his famous quote, “By failing to prepare, you are
+                                        preparing to fail.” He hopes to apply this principle in his journey as a member of the
+                                        HealthMUN executive board to help maximize efficiency and execute the ambitious plans
+                                        currently underway while also expanding his existing understanding of Model United Nations.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="md:col-span-3">
+                            <hr className="border-2 border-[#16796F]/20 dark:border-[#F7FAFA]/20 m-2 my-12 md:my-4" />
+                        </div>
+
+                        <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase'>
+                            President of the General Assembly
+                        </div>
+                        <div className="md:col-span-1 my-6 md:mt-0">
+                            <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
+                                <Image src={adnan} width={500} />
+                            </div>
+                            <div className="hidden md:flex justify-center">
+                                {/* Change email */}
+                                <a href="mailto:healthmun@gmail.com" className='font-montserrat p-4 text-sm mt-8 w-[15vw] uppercase text-center bg-[#16796F] text-[#F7FAFA] dark:bg-[#F7FAFA] dark:text-black hover:bg-[#16796F]/60 dark:hover:bg-[#F7FAFA]/50 border-0 border-[#16796F] dark:border-[#F7FAFA] cursor-pointer ease-in duration-100'>
+                                    Contact Adnan
+                                </a>
+                            </div>
+                        </div>
+                        <div className="md:col-span-2 text-[#F7FAFA] dark:text-[#F7FAFA] border-0 border-[#16796F] dark:border-[#F7FAFA] pb-12 md:pb-0">
+                            <div className='w-full h-full bg-[#F7FAFA] dark:bg-[#1a2726] text-black dark:text-[#F7FAFA]'>
+                                <div className='text-center md:text-left px-8 pb-6 md:pb-2 text-xl md:text-2xl'>
+                                    Adnan Alkhalili
+                                </div>
+                                <div className='text-left px-8 md:pb-6 py-4 md:py-2 text-sm border-4 md:border-0 border-[#16796F] dark:border-[#F7FAFA] max-h-[40vh] md:max-h-full overflow-y-scroll'>
+                                    <p>In the lively and diverse universe of college life, Adnan Alkhalili seamlessly blends the
+                                        worlds of psychology, pre-med studies, and global health advocacy. As a freshman at
+                                        Rutgers University, Adnan is an avid mental health advocate and founder of the call
+                                        to action Free The Bird, which aims to empower young people to champion mental health.</p>
+                                    <p className='mt-2'>Adnan boasts a decade of MUN experience and envisions HealthMUN as a
+                                        catalyst for change, merging his expertise in psychology and health to elevate the discourse
+                                        on global health challenges. As President of the programme board and general assembly of
+                                        HealthMUN, his mission is clear: to uphold the highest standards of excellence and inspire
+                                        committee directors, staff, and delegates to share in his vision.</p>
+                                    <p className='mt-2'>Outside the committee room, Adnan thrives in the great outdoors, finding
+                                        solace in the simplicity of walking, running, hiking, and exploring the natural world.
+                                        A martial artist at heart, Adnan loves jiu-jitsu and other martial arts forms that embody
+                                        his pursuit of discipline, strength, and resilience. These practices not only sharpen his
+                                        physical prowess but also fortify his mental agility, reflecting the harmonious balance he
+                                        seeks in all facets of life.</p>
+                                    <p className='mt-2'>An ardent lover of the English language and literature, Adnan finds joy
+                                        in the timeless beauty of classic works, which fuel his passion for writing. His literary
+                                        endeavors offer a window into his soul, revealing a depth of thought and a rich tapestry
+                                        of imagination that informs his worldview.</p>
+                                    <p className='mt-2'>Feel free to contact him if you have any questions! In any case,
+                                        he can’t wait to meet with you!</p>
                                 </div>
                             </div>
                         </div>
