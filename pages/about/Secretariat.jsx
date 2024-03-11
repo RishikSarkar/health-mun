@@ -32,8 +32,9 @@ const Secretariat = () => {
                 <div className='w-full h-full font-marcellus px-20 md:px-32'>
                     <div className='md:px-40 w-full md:w-full md:py-36 pt-16 md:pt-24 md:grid md:grid-cols-3 md:gap-x-4 gap-y-8'>
 
-                        <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase'>
-                            Secretary-General
+                        <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase flex flex-col'>
+                            <span>Secretary-General</span>
+                            <span className='pt-1 text-lg text-black/40 dark:text-[#F7FAFA]/40'>President</span>
                         </div>
                         <div className="md:col-span-1 my-6 md:mt-0">
                             <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
@@ -79,8 +80,9 @@ const Secretariat = () => {
                             <hr className="border-2 border-[#16796F]/20 dark:border-[#F7FAFA]/20 m-2 my-12 md:my-4" />
                         </div>
 
-                        <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase'>
-                            Deputy Secretary-General
+                        <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase flex flex-col'>
+                            <span>Deputy Secretary-General</span>
+                            <span className='pt-1 text-lg text-black/40 dark:text-[#F7FAFA]/40'>Vice-President</span>
                         </div>
                         <div className="md:col-span-1 my-6 md:mt-0">
                             <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
@@ -125,8 +127,9 @@ const Secretariat = () => {
                             <hr className="border-2 border-[#16796F]/20 dark:border-[#F7FAFA]/20 m-2 my-12 md:my-4" />
                         </div>
 
-                        <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase'>
-                            USG for Global Communications
+                        <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase flex flex-col'>
+                            <span>USG for Global Communications</span>
+                            <span className='pt-1 text-lg text-black/40 dark:text-[#F7FAFA]/40'>Communications Director</span>
                         </div>
                         <div className="md:col-span-1 my-6 md:mt-0">
                             <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
@@ -171,8 +174,9 @@ const Secretariat = () => {
                             <hr className="border-2 border-[#16796F]/20 dark:border-[#F7FAFA]/20 m-2 my-12 md:my-4" />
                         </div>
 
-                        <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase'>
-                            USG for Economic and Social Affairs
+                        <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase flex flex-col'>
+                            <span>USG for Economic and Social Affairs</span>
+                            <span className='pt-1 text-lg text-black/40 dark:text-[#F7FAFA]/40'>Treasurer</span>
                         </div>
                         <div className="md:col-span-1 my-6 md:mt-0">
                             <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
@@ -219,8 +223,9 @@ const Secretariat = () => {
                             <hr className="border-2 border-[#16796F]/20 dark:border-[#F7FAFA]/20 m-2 my-12 md:my-4" />
                         </div>
 
-                        <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase'>
-                            USG for Committee Affairs and Conference Management
+                        <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase flex flex-col'>
+                            <span>USG for Committee Affairs and Conference Management</span>
+                            <span className='pt-1 text-lg text-black/40 dark:text-[#F7FAFA]/40'>Logistics Director</span>
                         </div>
                         <div className="md:col-span-1 my-6 md:mt-0">
                             <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
@@ -266,8 +271,9 @@ const Secretariat = () => {
                             <hr className="border-2 border-[#16796F]/20 dark:border-[#F7FAFA]/20 m-2 my-12 md:my-4" />
                         </div>
 
-                        <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase'>
-                            President of the General Assembly
+                        <div className='text-center md:text-left md:col-span-3 px-2 text-2xl uppercase flex flex-col'>
+                            <span>President of the General Assembly</span>
+                            <span className='pt-1 text-lg text-black/40 dark:text-[#F7FAFA]/40'>General Assembly Director</span>
                         </div>
                         <div className="md:col-span-1 my-6 md:mt-0">
                             <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
