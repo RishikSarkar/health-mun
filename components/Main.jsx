@@ -114,7 +114,7 @@ const Main = () => {
 
                                             <div>
                                                 <div className='p-6 mt-32 -mb-60 text-[#F7FAFA] flex justify-center items-center ease-in duration-100'>
-                                                    <Link href='/#timer'>
+                                                    <Link href='/#countdown'>
                                                         <AiFillCaretDown size={50} className='cursor-pointer' />
                                                     </Link>
                                                 </div>
