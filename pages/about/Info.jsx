@@ -11,9 +11,11 @@ const Info = () => {
     const [numPages, setNumPages] = useState(null);
     const [pageNumber, setPageNumber] = useState(1);
 
-    const Newsletter = '/assets/documents/placeholder-pdf.pdf'
+    // const Newsletter = '/assets/documents/placeholder-pdf.pdf'
+    const Newsletter = '/assets/documents/newsletter.pdf'
     const Constitution = '/assets/documents/constitution.pdf'
     const GISlides = '/assets/documents/gi-slides.pdf'
+    const currWeek = '3/28/2024'
 
     useEffect(() => {
         setManual(true);
@@ -48,11 +50,11 @@ const Info = () => {
                 </div>
                 <div className='w-full h-full font-marcellus px-20 md:px-32'>
                     <div className='text-center py-12 text-lg md:text-2xl'>
-                        <span className='text-[#16796F] text-xl md:text-2xl dark:text-[#F7FAFA]/60'>Highlight of the Week:</span> Newsletter (TBD)
+                        <span className='text-[#16796F] text-xl md:text-2xl dark:text-[#F7FAFA]/60'>Highlight of the Week:</span> Newsletter ({currWeek})
                     </div>
                     <div className='flex justify-center pb-12'>
                         <div>
-                            <Document className={"border-8 border-[#16796F] dark:border-[#F7FAFA]/60 cursor-pointer"} onClick={handleNewsletterClick} file='/assets/documents/placeholder-pdf.pdf' onLoadSuccess={onDocumentLoadSuccess}>
+                            <Document className={"border-8 border-[#16796F] dark:border-[#F7FAFA]/60 cursor-pointer"} onClick={handleNewsletterClick} file={Newsletter} onLoadSuccess={onDocumentLoadSuccess}>
                                 <Page pageNumber={pageNumber} renderTextLayer={false} width={350} />
                             </Document>
                         </div>

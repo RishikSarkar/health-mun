@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const Countdown = () => {
-    const targetDate = new Date('2024-01-25T02:00:00Z');
+    const targetDate = new Date('2024-04-02T01:00:00Z');
 
     const [timeLeft, setTimeLeft] = useState({
         days: null,
@@ -50,16 +50,17 @@ const Countdown = () => {
     return (
         <div id='countdown' className='font-marcellus w-full h-full text-center text-[#F7FAFA] bg-[#16796F] dark:bg-[#041312] select-none overflow-x-hidden'>
             <div className='w-full h-[200px] md:h-[300px] mx-auto flex flex-col justify-center items-center'>
-                <div className='p-3 text-lg md:text-xl uppercase flex'>
+                <div className='p-3 text-lg md:text-2xl uppercase flex'>
                     {/* Conference Starts in */}
                     {/* General Interest Meeting in */}
-                    Thanks for joining our General Interest Meeting!
+                    Join Us for Workshop #3 in 
+                    {/* Thanks for joining our General Interest Meeting! */}
                 </div>
-                <div className='p-3 text-lg md:text-xl uppercase flex'>
+                {/* <div className='p-3 text-lg md:text-xl uppercase flex'>
                     More Updates Coming Soon!
-                </div>
+                </div> */}
 
-                {/* <div className='mt-4 p-3 text-xl md:text-3xl flex flex-col'>
+                <div className='mt-2 p-3 text-xl md:text-3xl flex flex-col'>
                     <div id='timer' className="grid grid-cols-4 gap-4">
                         <div className="col-span-1 w-12">
                             {`${timeLeft.days}`}
@@ -87,7 +88,7 @@ const Countdown = () => {
                             S
                         </div>
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>
     );
