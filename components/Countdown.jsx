@@ -53,14 +53,15 @@ const Countdown = () => {
                 <div className='p-3 text-lg md:text-2xl uppercase flex'>
                     {/* Conference Starts in */}
                     {/* General Interest Meeting in */}
-                    Join Us for Workshop #3 in 
+                    {/* Join Us for Workshop #3 in  */}
                     {/* Thanks for joining our General Interest Meeting! */}
+                    More Updates Coming Soon!
                 </div>
                 {/* <div className='p-3 text-lg md:text-xl uppercase flex'>
                     More Updates Coming Soon!
                 </div> */}
 
-                <div className='mt-2 p-3 text-xl md:text-3xl flex flex-col'>
+                {/* <div className='mt-2 p-3 text-xl md:text-3xl flex flex-col'>
                     <div id='timer' className="grid grid-cols-4 gap-4">
                         <div className="col-span-1 w-12">
                             {`${timeLeft.days}`}
@@ -88,7 +89,7 @@ const Countdown = () => {
                             S
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
