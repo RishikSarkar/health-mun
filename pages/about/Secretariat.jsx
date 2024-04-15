@@ -3,8 +3,8 @@ import Image from 'next/image';
 import Head from 'next/head';
 import { useManual } from '../../contexts/ManualContext';
 
-import placeholder_y from '../../public/assets/secretariat/placeholder_y.png'
 import placeholder_a from '../../public/assets/secretariat/placeholder_a.jpg'
+import yasmin from '../../public/assets/secretariat/yasmin.jpg'
 import rishik from '../../public/assets/secretariat/rishik.jpg'
 import olivier from '../../public/assets/secretariat/olivier.jpg'
 import justin from '../../public/assets/secretariat/justin.JPG'
@@ -38,7 +38,7 @@ const Secretariat = () => {
                         </div>
                         <div className="md:col-span-1 my-6 md:mt-0">
                             <div className='border-8 border-[#16796F] dark:border-[#F7FAFA]'>
-                                <Image src={placeholder_y} width={500} />
+                                <Image src={yasmin} width={500} />
                             </div>
                             <div className="hidden md:flex justify-center">
                                 {/* Change email */}
