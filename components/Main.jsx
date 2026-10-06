@@ -108,7 +108,7 @@ const Main = () => {
                                             <div className='max-w-[300px] m-auto select-none'>
                                                 <div className='font-medium text-xl md:text-2xl uppercase'>
                                                     {/* June 11 - July 9, 2024 */}
-                                                    2024
+                                                    2026
                                                 </div>
                                             </div>
 
