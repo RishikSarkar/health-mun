@@ -76,7 +76,7 @@ const Welcome = () => {
                             Secretary-General
                         </div>
                         <div className='text-sm md:text-base pt-6 text-left'>
-                            Health Model United Nations 2024
+                            Health Model United Nations 2026
                         </div>
                         <div className='text-sm md:text-base pt-6 text-left'>
                             secgen.healthmun@gmail.com
@@ -132,7 +132,7 @@ const Welcome = () => {
                             Deputy-General
                         </div>
                         <div className='text-sm md:text-base pt-6 text-left'>
-                            Health Model United Nations 2024
+                            Health Model United Nations 2026
                         </div>
                         <div className='text-sm md:text-base pt-6 text-left'>
                             depgen.healthmun@gmail.com
@@ -189,7 +189,7 @@ const Welcome = () => {
                         Secretary-General
                     </div>
                     <div className='text-sm md:text-base pt-6 text-right'>
-                        Health Model United Nations 2024
+                        Health Model United Nations 2026
                     </div>
                     <div className='text-sm md:text-base pt-6 text-right'>
                         secretarygeneral@healthmun.org
