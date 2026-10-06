@@ -28,7 +28,7 @@ const Register = () => {
                             <p className='py-4'>HealthMUN will take place at [TBD] on [TBD]. The conference is open to [TBD]. Delegates may
                                 attend with a delegation or independently.</p>
                             <p className='py-4'>The HealthMUN Registration Portal is currently undergoing maintenance. We encourage delegations
-                                interested in attending HealthMUN 2024 to check back once the conference details have been finalized. For questions
+                                interested in attending HealthMUN 2027 to check back once the conference details have been finalized. For questions
                                 please email <a href='mailto:communications.healthmun@gmail.com' className='text-[#16796F] dark:text-[#F7FAFA]/60'>communications.healthmun@gmail.com</a></p>
                         </div>
 
