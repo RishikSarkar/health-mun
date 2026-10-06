@@ -50,7 +50,7 @@ const Info = () => {
                 </div>
                 <div className='w-full h-full font-marcellus px-20 md:px-32'>
                     <div className='text-center py-12 text-lg md:text-2xl'>
-                        <span className='text-[#16796F] text-xl md:text-2xl dark:text-[#F7FAFA]/60'>Highlight of the Week:</span> Newsletter ({currWeek})
+                        <span className='text-[#16796F] text-xl md:text-2xl dark:text-[#F7FAFA]/60'>Archived Highlights:</span> Newsletter ({currWeek})
                     </div>
                     <div className='flex justify-center pb-12'>
                         <div>
